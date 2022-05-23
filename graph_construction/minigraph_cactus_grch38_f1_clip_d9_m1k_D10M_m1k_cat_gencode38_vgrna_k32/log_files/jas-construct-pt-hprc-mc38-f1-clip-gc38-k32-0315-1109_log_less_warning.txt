@@ -1,0 +1,300 @@
+---
+jas-construct-pt-hprc-mc38-f1-clip-gc38-k32-0315-1109
+TIME=20220315-1109 IMAGE=quay.io/jsibbesen/vg-s3script:vg-1.38.0-s2 MEMORY=192 CPU=24 DISK=512
+s3://vg-k8s/users/jsibbesen/hprc/pilot/pantranscriptomes/minigraph_cactus_grch38_f1_clip_d9_m1k_D10M_m1k_cat_gencode38_vgrna_k32/construct.sh
+CPU=24
+---
+Completed 4.9 KiB/4.9 KiB (22.9 KiB/s) with 1 file(s) remainingdownload: s3://vg-k8s/users/jsibbesen/hprc/pilot/pantranscriptomes/minigraph_cactus_grch38_f1_clip_d9_m1k_D10M_m1k_cat_gencode38_vgrna_k32/construct.sh to ./construct.sh
+download: s3://vg-k8s/users/jsibbesen/hprc/pilot/data/pangenomes/minigraph_cactus_grch38_f1/GRCh38-f1g-90-mc-aug11-clip.d9.m1000.D10M.m1000.gbwt to ./GRCh38-f1g-90-mc-aug11-clip.d9.m1000.D10M.m1000.gbwt
+download: s3://vg-k8s/users/jsibbesen/hprc/pilot/data/pangenomes/minigraph_cactus_grch38_f1/GRCh38-f1g-90-mc-aug11-clip.d9.m1000.D10M.m1000.xg to ./GRCh38-f1g-90-mc-aug11-clip.d9.m1000.D10M.m1000.xg
+download: s3://vg-k8s/users/jsibbesen/hprc/pilot/data/annotations/assemblies/minigraph_cactus_grch38_f1/cat_gencode38/HG00621.2.hg38.gff3.gz to ./HG00621.2.hg38.gff3.gz
+download: s3://vg-k8s/users/jsibbesen/hprc/pilot/data/annotations/assemblies/minigraph_cactus_grch38_f1/cat_gencode38/CHM13.hg38.gff3.gz to ./CHM13.hg38.gff3.gz
+download: s3://vg-k8s/users/jsibbesen/hprc/pilot/data/annotations/assemblies/minigraph_cactus_grch38_f1/cat_gencode38/HG00438.1.hg38.gff3.gz to ./HG00438.1.hg38.gff3.gz
+download: s3://vg-k8s/users/jsibbesen/hprc/pilot/data/annotations/assemblies/minigraph_cactus_grch38_f1/cat_gencode38/HG00438.2.hg38.gff3.gz to ./HG00438.2.hg38.gff3.gz
+download: s3://vg-k8s/users/jsibbesen/hprc/pilot/data/annotations/assemblies/minigraph_cactus_grch38_f1/cat_gencode38/HG00621.1.hg38.gff3.gz to ./HG00621.1.hg38.gff3.gz
+download: s3://vg-k8s/users/jsibbesen/hprc/pilot/data/annotations/assemblies/minigraph_cactus_grch38_f1/cat_gencode38/HG00673.1.hg38.gff3.gz to ./HG00673.1.hg38.gff3.gz
+download: s3://vg-k8s/users/jsibbesen/hprc/pilot/data/annotations/assemblies/minigraph_cactus_grch38_f1/cat_gencode38/HG00673.2.hg38.gff3.gz to ./HG00673.2.hg38.gff3.gz
+download: s3://vg-k8s/users/jsibbesen/hprc/pilot/data/annotations/assemblies/minigraph_cactus_grch38_f1/cat_gencode38/HG00733.1.hg38.gff3.gz to ./HG00733.1.hg38.gff3.gz
+download: s3://vg-k8s/users/jsibbesen/hprc/pilot/data/annotations/assemblies/minigraph_cactus_grch38_f1/cat_gencode38/HG00733.2.hg38.gff3.gz to ./HG00733.2.hg38.gff3.gz
+download: s3://vg-k8s/users/jsibbesen/hprc/pilot/data/annotations/assemblies/minigraph_cactus_grch38_f1/cat_gencode38/HG00735.1.hg38.gff3.gz to ./HG00735.1.hg38.gff3.gz
+download: s3://vg-k8s/users/jsibbesen/hprc/pilot/data/annotations/assemblies/minigraph_cactus_grch38_f1/cat_gencode38/HG00735.2.hg38.gff3.gz to ./HG00735.2.hg38.gff3.gz
+download: s3://vg-k8s/users/jsibbesen/hprc/pilot/data/annotations/assemblies/minigraph_cactus_grch38_f1/cat_gencode38/HG00741.1.hg38.gff3.gz to ./HG00741.1.hg38.gff3.gz
+download: s3://vg-k8s/users/jsibbesen/hprc/pilot/data/annotations/assemblies/minigraph_cactus_grch38_f1/cat_gencode38/HG01071.1.hg38.gff3.gz to ./HG01071.1.hg38.gff3.gz
+download: s3://vg-k8s/users/jsibbesen/hprc/pilot/data/annotations/assemblies/minigraph_cactus_grch38_f1/cat_gencode38/HG00741.2.hg38.gff3.gz to ./HG00741.2.hg38.gff3.gz
+download: s3://vg-k8s/users/jsibbesen/hprc/pilot/data/annotations/assemblies/minigraph_cactus_grch38_f1/cat_gencode38/HG01071.2.hg38.gff3.gz to ./HG01071.2.hg38.gff3.gz
+download: s3://vg-k8s/users/jsibbesen/hprc/pilot/data/annotations/assemblies/minigraph_cactus_grch38_f1/cat_gencode38/HG01106.1.hg38.gff3.gz to ./HG01106.1.hg38.gff3.gz
+download: s3://vg-k8s/users/jsibbesen/hprc/pilot/data/annotations/assemblies/minigraph_cactus_grch38_f1/cat_gencode38/HG01106.2.hg38.gff3.gz to ./HG01106.2.hg38.gff3.gz
+download: s3://vg-k8s/users/jsibbesen/hprc/pilot/data/annotations/assemblies/minigraph_cactus_grch38_f1/cat_gencode38/HG01109.2.hg38.gff3.gz to ./HG01109.2.hg38.gff3.gz
+download: s3://vg-k8s/users/jsibbesen/hprc/pilot/data/annotations/assemblies/minigraph_cactus_grch38_f1/cat_gencode38/HG01109.1.hg38.gff3.gz to ./HG01109.1.hg38.gff3.gz
+download: s3://vg-k8s/users/jsibbesen/hprc/pilot/data/annotations/assemblies/minigraph_cactus_grch38_f1/cat_gencode38/HG01123.1.hg38.gff3.gz to ./HG01123.1.hg38.gff3.gz
+download: s3://vg-k8s/users/jsibbesen/hprc/pilot/data/annotations/assemblies/minigraph_cactus_grch38_f1/cat_gencode38/HG01123.2.hg38.gff3.gz to ./HG01123.2.hg38.gff3.gz
+download: s3://vg-k8s/users/jsibbesen/hprc/pilot/data/annotations/assemblies/minigraph_cactus_grch38_f1/cat_gencode38/HG01175.1.hg38.gff3.gz to ./HG01175.1.hg38.gff3.gz
+download: s3://vg-k8s/users/jsibbesen/hprc/pilot/data/annotations/assemblies/minigraph_cactus_grch38_f1/cat_gencode38/HG01243.1.hg38.gff3.gz to ./HG01243.1.hg38.gff3.gz
+download: s3://vg-k8s/users/jsibbesen/hprc/pilot/data/annotations/assemblies/minigraph_cactus_grch38_f1/cat_gencode38/HG01175.2.hg38.gff3.gz to ./HG01175.2.hg38.gff3.gz
+download: s3://vg-k8s/users/jsibbesen/hprc/pilot/data/annotations/assemblies/minigraph_cactus_grch38_f1/cat_gencode38/HG01243.2.hg38.gff3.gz to ./HG01243.2.hg38.gff3.gz
+download: s3://vg-k8s/users/jsibbesen/hprc/pilot/data/annotations/assemblies/minigraph_cactus_grch38_f1/cat_gencode38/HG01258.2.hg38.gff3.gz to ./HG01258.2.hg38.gff3.gz
+download: s3://vg-k8s/users/jsibbesen/hprc/pilot/data/annotations/assemblies/minigraph_cactus_grch38_f1/cat_gencode38/HG01258.1.hg38.gff3.gz to ./HG01258.1.hg38.gff3.gz
+download: s3://vg-k8s/users/jsibbesen/hprc/pilot/data/annotations/assemblies/minigraph_cactus_grch38_f1/cat_gencode38/HG01358.1.hg38.gff3.gz to ./HG01358.1.hg38.gff3.gz
+download: s3://vg-k8s/users/jsibbesen/hprc/pilot/data/annotations/assemblies/minigraph_cactus_grch38_f1/cat_gencode38/HG01358.2.hg38.gff3.gz to ./HG01358.2.hg38.gff3.gz
+download: s3://vg-k8s/users/jsibbesen/hprc/pilot/data/annotations/assemblies/minigraph_cactus_grch38_f1/cat_gencode38/HG01361.1.hg38.gff3.gz to ./HG01361.1.hg38.gff3.gz
+download: s3://vg-k8s/users/jsibbesen/hprc/pilot/data/annotations/assemblies/minigraph_cactus_grch38_f1/cat_gencode38/HG01361.2.hg38.gff3.gz to ./HG01361.2.hg38.gff3.gz
+download: s3://vg-k8s/users/jsibbesen/hprc/pilot/data/annotations/assemblies/minigraph_cactus_grch38_f1/cat_gencode38/HG01891.1.hg38.gff3.gz to ./HG01891.1.hg38.gff3.gz
+download: s3://vg-k8s/users/jsibbesen/hprc/pilot/data/annotations/assemblies/minigraph_cactus_grch38_f1/cat_gencode38/HG01891.2.hg38.gff3.gz to ./HG01891.2.hg38.gff3.gz
+download: s3://vg-k8s/users/jsibbesen/hprc/pilot/data/annotations/assemblies/minigraph_cactus_grch38_f1/cat_gencode38/HG01928.1.hg38.gff3.gz to ./HG01928.1.hg38.gff3.gz
+download: s3://vg-k8s/users/jsibbesen/hprc/pilot/data/annotations/assemblies/minigraph_cactus_grch38_f1/cat_gencode38/HG01928.2.hg38.gff3.gz to ./HG01928.2.hg38.gff3.gz
+download: s3://vg-k8s/users/jsibbesen/hprc/pilot/data/annotations/assemblies/minigraph_cactus_grch38_f1/cat_gencode38/HG01952.1.hg38.gff3.gz to ./HG01952.1.hg38.gff3.gz
+download: s3://vg-k8s/users/jsibbesen/hprc/pilot/data/annotations/assemblies/minigraph_cactus_grch38_f1/cat_gencode38/HG01952.2.hg38.gff3.gz to ./HG01952.2.hg38.gff3.gz
+download: s3://vg-k8s/users/jsibbesen/hprc/pilot/data/annotations/assemblies/minigraph_cactus_grch38_f1/cat_gencode38/HG01978.1.hg38.gff3.gz to ./HG01978.1.hg38.gff3.gz
+download: s3://vg-k8s/users/jsibbesen/hprc/pilot/data/annotations/assemblies/minigraph_cactus_grch38_f1/cat_gencode38/HG01978.2.hg38.gff3.gz to ./HG01978.2.hg38.gff3.gz
+download: s3://vg-k8s/users/jsibbesen/hprc/pilot/data/annotations/assemblies/minigraph_cactus_grch38_f1/cat_gencode38/HG02055.1.hg38.gff3.gz to ./HG02055.1.hg38.gff3.gz
+download: s3://vg-k8s/users/jsibbesen/hprc/pilot/data/annotations/assemblies/minigraph_cactus_grch38_f1/cat_gencode38/HG02055.2.hg38.gff3.gz to ./HG02055.2.hg38.gff3.gz
+download: s3://vg-k8s/users/jsibbesen/hprc/pilot/data/annotations/assemblies/minigraph_cactus_grch38_f1/cat_gencode38/HG02080.1.hg38.gff3.gz to ./HG02080.1.hg38.gff3.gz
+download: s3://vg-k8s/users/jsibbesen/hprc/pilot/data/annotations/assemblies/minigraph_cactus_grch38_f1/cat_gencode38/HG02080.2.hg38.gff3.gz to ./HG02080.2.hg38.gff3.gz
+download: s3://vg-k8s/users/jsibbesen/hprc/pilot/data/annotations/assemblies/minigraph_cactus_grch38_f1/cat_gencode38/HG02109.1.hg38.gff3.gz to ./HG02109.1.hg38.gff3.gz
+download: s3://vg-k8s/users/jsibbesen/hprc/pilot/data/annotations/assemblies/minigraph_cactus_grch38_f1/cat_gencode38/HG02109.2.hg38.gff3.gz to ./HG02109.2.hg38.gff3.gz
+download: s3://vg-k8s/users/jsibbesen/hprc/pilot/data/annotations/assemblies/minigraph_cactus_grch38_f1/cat_gencode38/HG02145.1.hg38.gff3.gz to ./HG02145.1.hg38.gff3.gz
+download: s3://vg-k8s/users/jsibbesen/hprc/pilot/data/annotations/assemblies/minigraph_cactus_grch38_f1/cat_gencode38/HG02145.2.hg38.gff3.gz to ./HG02145.2.hg38.gff3.gz
+download: s3://vg-k8s/users/jsibbesen/hprc/pilot/data/annotations/assemblies/minigraph_cactus_grch38_f1/cat_gencode38/HG02148.1.hg38.gff3.gz to ./HG02148.1.hg38.gff3.gz
+download: s3://vg-k8s/users/jsibbesen/hprc/pilot/data/annotations/assemblies/minigraph_cactus_grch38_f1/cat_gencode38/HG02257.1.hg38.gff3.gz to ./HG02257.1.hg38.gff3.gz
+download: s3://vg-k8s/users/jsibbesen/hprc/pilot/data/annotations/assemblies/minigraph_cactus_grch38_f1/cat_gencode38/HG02148.2.hg38.gff3.gz to ./HG02148.2.hg38.gff3.gz
+download: s3://vg-k8s/users/jsibbesen/hprc/pilot/data/annotations/assemblies/minigraph_cactus_grch38_f1/cat_gencode38/HG02486.1.hg38.gff3.gz to ./HG02486.1.hg38.gff3.gz
+download: s3://vg-k8s/users/jsibbesen/hprc/pilot/data/annotations/assemblies/minigraph_cactus_grch38_f1/cat_gencode38/HG02257.2.hg38.gff3.gz to ./HG02257.2.hg38.gff3.gz
+download: s3://vg-k8s/users/jsibbesen/hprc/pilot/data/annotations/assemblies/minigraph_cactus_grch38_f1/cat_gencode38/HG02486.2.hg38.gff3.gz to ./HG02486.2.hg38.gff3.gz
+download: s3://vg-k8s/users/jsibbesen/hprc/pilot/data/annotations/assemblies/minigraph_cactus_grch38_f1/cat_gencode38/HG02559.1.hg38.gff3.gz to ./HG02559.1.hg38.gff3.gz
+download: s3://vg-k8s/users/jsibbesen/hprc/pilot/data/annotations/assemblies/minigraph_cactus_grch38_f1/cat_gencode38/HG02559.2.hg38.gff3.gz to ./HG02559.2.hg38.gff3.gz
+download: s3://vg-k8s/users/jsibbesen/hprc/pilot/data/annotations/assemblies/minigraph_cactus_grch38_f1/cat_gencode38/HG02572.1.hg38.gff3.gz to ./HG02572.1.hg38.gff3.gz
+download: s3://vg-k8s/users/jsibbesen/hprc/pilot/data/annotations/assemblies/minigraph_cactus_grch38_f1/cat_gencode38/HG02572.2.hg38.gff3.gz to ./HG02572.2.hg38.gff3.gz
+download: s3://vg-k8s/users/jsibbesen/hprc/pilot/data/annotations/assemblies/minigraph_cactus_grch38_f1/cat_gencode38/HG02622.1.hg38.gff3.gz to ./HG02622.1.hg38.gff3.gz
+download: s3://vg-k8s/users/jsibbesen/hprc/pilot/data/annotations/assemblies/minigraph_cactus_grch38_f1/cat_gencode38/HG02622.2.hg38.gff3.gz to ./HG02622.2.hg38.gff3.gz
+download: s3://vg-k8s/users/jsibbesen/hprc/pilot/data/annotations/assemblies/minigraph_cactus_grch38_f1/cat_gencode38/HG02630.1.hg38.gff3.gz to ./HG02630.1.hg38.gff3.gz
+download: s3://vg-k8s/users/jsibbesen/hprc/pilot/data/annotations/assemblies/minigraph_cactus_grch38_f1/cat_gencode38/HG02630.2.hg38.gff3.gz to ./HG02630.2.hg38.gff3.gz
+download: s3://vg-k8s/users/jsibbesen/hprc/pilot/data/annotations/assemblies/minigraph_cactus_grch38_f1/cat_gencode38/HG02717.1.hg38.gff3.gz to ./HG02717.1.hg38.gff3.gz
+download: s3://vg-k8s/users/jsibbesen/hprc/pilot/data/annotations/assemblies/minigraph_cactus_grch38_f1/cat_gencode38/HG02717.2.hg38.gff3.gz to ./HG02717.2.hg38.gff3.gz
+download: s3://vg-k8s/users/jsibbesen/hprc/pilot/data/annotations/assemblies/minigraph_cactus_grch38_f1/cat_gencode38/HG02723.1.hg38.gff3.gz to ./HG02723.1.hg38.gff3.gz
+download: s3://vg-k8s/users/jsibbesen/hprc/pilot/data/annotations/assemblies/minigraph_cactus_grch38_f1/cat_gencode38/HG02723.2.hg38.gff3.gz to ./HG02723.2.hg38.gff3.gz
+download: s3://vg-k8s/users/jsibbesen/hprc/pilot/data/annotations/assemblies/minigraph_cactus_grch38_f1/cat_gencode38/HG02818.1.hg38.gff3.gz to ./HG02818.1.hg38.gff3.gz
+download: s3://vg-k8s/users/jsibbesen/hprc/pilot/data/annotations/assemblies/minigraph_cactus_grch38_f1/cat_gencode38/HG02818.2.hg38.gff3.gz to ./HG02818.2.hg38.gff3.gz
+download: s3://vg-k8s/users/jsibbesen/hprc/pilot/data/annotations/assemblies/minigraph_cactus_grch38_f1/cat_gencode38/HG02886.1.hg38.gff3.gz to ./HG02886.1.hg38.gff3.gz
+download: s3://vg-k8s/users/jsibbesen/hprc/pilot/data/annotations/assemblies/minigraph_cactus_grch38_f1/cat_gencode38/HG02886.2.hg38.gff3.gz to ./HG02886.2.hg38.gff3.gz
+download: s3://vg-k8s/users/jsibbesen/hprc/pilot/data/annotations/assemblies/minigraph_cactus_grch38_f1/cat_gencode38/HG03098.1.hg38.gff3.gz to ./HG03098.1.hg38.gff3.gz
+download: s3://vg-k8s/users/jsibbesen/hprc/pilot/data/annotations/assemblies/minigraph_cactus_grch38_f1/cat_gencode38/HG03098.2.hg38.gff3.gz to ./HG03098.2.hg38.gff3.gz
+download: s3://vg-k8s/users/jsibbesen/hprc/pilot/data/annotations/assemblies/minigraph_cactus_grch38_f1/cat_gencode38/HG03453.1.hg38.gff3.gz to ./HG03453.1.hg38.gff3.gz
+download: s3://vg-k8s/users/jsibbesen/hprc/pilot/data/annotations/assemblies/minigraph_cactus_grch38_f1/cat_gencode38/HG03453.2.hg38.gff3.gz to ./HG03453.2.hg38.gff3.gz
+download: s3://vg-k8s/users/jsibbesen/hprc/pilot/data/annotations/assemblies/minigraph_cactus_grch38_f1/cat_gencode38/HG03486.1.hg38.gff3.gz to ./HG03486.1.hg38.gff3.gz
+download: s3://vg-k8s/users/jsibbesen/hprc/pilot/data/annotations/assemblies/minigraph_cactus_grch38_f1/cat_gencode38/HG03486.2.hg38.gff3.gz to ./HG03486.2.hg38.gff3.gz
+download: s3://vg-k8s/users/jsibbesen/hprc/pilot/data/annotations/assemblies/minigraph_cactus_grch38_f1/cat_gencode38/HG03492.1.hg38.gff3.gz to ./HG03492.1.hg38.gff3.gz
+download: s3://vg-k8s/users/jsibbesen/hprc/pilot/data/annotations/assemblies/minigraph_cactus_grch38_f1/cat_gencode38/HG03492.2.hg38.gff3.gz to ./HG03492.2.hg38.gff3.gz
+download: s3://vg-k8s/users/jsibbesen/hprc/pilot/data/annotations/assemblies/minigraph_cactus_grch38_f1/cat_gencode38/HG03516.1.hg38.gff3.gz to ./HG03516.1.hg38.gff3.gz
+download: s3://vg-k8s/users/jsibbesen/hprc/pilot/data/annotations/assemblies/minigraph_cactus_grch38_f1/cat_gencode38/HG03516.2.hg38.gff3.gz to ./HG03516.2.hg38.gff3.gz
+download: s3://vg-k8s/users/jsibbesen/hprc/pilot/data/annotations/assemblies/minigraph_cactus_grch38_f1/cat_gencode38/HG03540.1.hg38.gff3.gz to ./HG03540.1.hg38.gff3.gz
+download: s3://vg-k8s/users/jsibbesen/hprc/pilot/data/annotations/assemblies/minigraph_cactus_grch38_f1/cat_gencode38/HG03540.2.hg38.gff3.gz to ./HG03540.2.hg38.gff3.gz
+download: s3://vg-k8s/users/jsibbesen/hprc/pilot/data/annotations/assemblies/minigraph_cactus_grch38_f1/cat_gencode38/HG03579.1.hg38.gff3.gz to ./HG03579.1.hg38.gff3.gz
+download: s3://vg-k8s/users/jsibbesen/hprc/pilot/data/annotations/assemblies/minigraph_cactus_grch38_f1/cat_gencode38/HG03579.2.hg38.gff3.gz to ./HG03579.2.hg38.gff3.gz
+download: s3://vg-k8s/users/jsibbesen/hprc/pilot/data/annotations/assemblies/minigraph_cactus_grch38_f1/cat_gencode38/NA18906.1.hg38.gff3.gz to ./NA18906.1.hg38.gff3.gz
+download: s3://vg-k8s/users/jsibbesen/hprc/pilot/data/annotations/assemblies/minigraph_cactus_grch38_f1/cat_gencode38/NA18906.2.hg38.gff3.gz to ./NA18906.2.hg38.gff3.gz
+download: s3://vg-k8s/users/jsibbesen/hprc/pilot/data/annotations/assemblies/minigraph_cactus_grch38_f1/cat_gencode38/NA20129.1.hg38.gff3.gz to ./NA20129.1.hg38.gff3.gz
+download: s3://vg-k8s/users/jsibbesen/hprc/pilot/data/annotations/assemblies/minigraph_cactus_grch38_f1/cat_gencode38/NA21309.1.hg38.gff3.gz to ./NA21309.1.hg38.gff3.gz
+download: s3://vg-k8s/users/jsibbesen/hprc/pilot/data/annotations/assemblies/minigraph_cactus_grch38_f1/cat_gencode38/NA20129.2.hg38.gff3.gz to ./NA20129.2.hg38.gff3.gz
+download: s3://vg-k8s/users/jsibbesen/hprc/pilot/data/annotations/assemblies/minigraph_cactus_grch38_f1/cat_gencode38/NA21309.2.hg38.gff3.gz to ./NA21309.2.hg38.gff3.gz
+download: s3://vg-k8s/users/jsibbesen/hprc/pilot/data/annotations/reference/grch38/gencode38/gencode.v38.primary_assembly.annotation_rename_par.gff3.gz to ./gencode.v38.primary_assembly.annotation_rename_par.gff3.gz
+	Command being timed: "bash -c vg convert -t 24 -p GRCh38-f1g-90-mc-aug11-clip.d9.m1000.D10M.m1000.xg > GRCh38-f1g-90-mc-aug11-clip.d9.m1000.D10M.m1000.pg"
+	User time (seconds): 853.04
+	System time (seconds): 48.59
+	Percent of CPU this job got: 99%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 15:01.76
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 8032324
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 11
+	Minor (reclaiming a frame) page faults: 10414166
+	Voluntary context switches: 16
+	Involuntary context switches: 2392
+	Swaps: 0
+	File system inputs: 69992
+	File system outputs: 5925800
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+[vg rna] Parsing graph file ...
+[vg rna] Parsing haplotype GBWT index file ...
+[vg rna] Graph and GBWT index parsed in 9.20924 seconds, 7.02507 GB
+[vg rna] Adding transcript splice-junctions and exon boundaries to graph ...
+[transcriptome] WARNING: Skipping transcript ENST00000424587.7 on chr1 since one of its exons overlap a haplotype break.
+[transcriptome] WARNING: Skipping transcript ENST00000634833.2 on chr1 since one of its exons overlap a haplotype break.
+[transcriptome] WARNING: Skipping transcript ENST00000357876.6 on chr1 since one of its exons overlap a haplotype break.
+[transcriptome] WARNING: Skipping transcript ENST00000605013.1 on JAGYVN010000018.1 since one of its exons overlap a haplotype break.
+[transcriptome] WARNING: Skipping transcript ENST00000657926.1 on [transcriptome] WARNING: Skipping transcript ENST00000660204.1 on chr3 since one of its exons overlap a haplotype break.
+[transcriptome] WARNING: Skipping transcript JAGYVI010000020.1 since one of its exons overlap a haplotype break.
+[transcriptome] WARNING: Skipping transcript ENST00000532071.1 on JAGYVI010000020.1 since one of its exons overlap a haplotype break.
+[transcriptome] WARNING: Skipping transcript ENST00000660491.1 on chr3ENST00000400706.3 on JAHAMD010000002.1 since one of its exons overlap a haplotype break.
+ since one of its exons overlap a haplotype break.
+[transcriptome] WARNING: Skipping transcript ENST00000504074.1 on JAHAMD010000002.1 since one of its exons overlap a haplotype break.
+[transcriptome] WARNING: Skipping transcript ENST00000546223.1 on JAHAMD010000002.1 since one of its exons overlap a haplotype break.
+[transcriptome] WARNING: Skipping transcript ENST00000605013.1 on JAGYVL010000002.1 since one of its exons overlap a haplotype break.
+[transcriptome] WARNING: Skipping transcript [transcriptome] WARNING: Skipping transcript ENST00000622626.1 on ENST00000633719.1 on chr19 since one of its exons overlap a haplotype break.[transcriptome] WARNING: Skipping transcript ENST00000442305.1 on JAHBCH010000004.1 since one of its exons overlap a haplotype break.[transcriptome] WARNING: Skipping transcript JAGYVL010000002.1 since one of its exons overlap a haplotype break.ENST00000624288.1
+[transcriptome] WARNING: Skipping transcript ENST00000529266.1 on JAGYVL010000002.1 since one of its exons overlap a haplotype break.
+
+ on JAGYVI010000020.1[transcriptome] WARNING: Skipping transcript ENST00000526704.6 on JAGYVL010000002.1 since one of its exons overlap a haplotype break.
+ since one of its exons overlap a haplotype break.
+[transcriptome] WARNING: Skipping transcript ENST00000325113.9 on chr11 since one of its exons overlap a haplotype break.
+[transcriptome] WARNING: Skipping transcript ENST00000531679.1 on chr11 since one of its exons overlap a haplotype break.
+[transcriptome] WARNING: Skipping transcript ENST00000526190.5 on JAHEPK010000017.1 since one of its exons overlap a haplotype break.
+[transcriptome] WARNING: Skipping transcript ENST00000325147.13 on [transcriptome] WARNING: Skipping transcript 
+ENST00000525586.5 on JAHEPK010000017.1 since one of its exons overlap a haplotype break.[transcriptome] WARNING: Skipping transcript ENST00000325147.13 on JAHAMC010000017.1[transcriptome] WARNING: Skipping transcript ENST00000530149.1
+[transcriptome] WARNING: Skipping transcript [transcriptome] WARNING: Skipping transcript ENST00000538872.6 on chr11 on JAGYVN010000018.1[transcriptome] WARNING: Skipping transcript ENST00000607448.5ENST00000264036.6 on [transcriptome] WARNING: Skipping transcript JAHEPK010000017.1 since one of its exons overlap a haplotype break. since one of its exons overlap a haplotype break. on 
+JAHAMD010000002.1ENST00000631994.1 since one of its exons overlap a haplotype break. on JAGYVL010000002.1 since one of its exons overlap a haplotype break.chr19 since one of its exons overlap a haplotype break.[transcriptome] WARNING: Skipping transcript 
+[transcriptome] WARNING: Skipping transcript ENST00000668625.1 on JAHEPD010000343.1 since one of its exons overlap a haplotype break.
+[transcriptome] WARNING: Skipping transcript ENST00000559033.1 on JAGYVO010000152.1 since one of its exons overlap a haplotype break.
+[transcriptome] WARNING: Skipping transcript ENST00000457579.1 on JAHAOT010000071.1 since one of its exons overlap a haplotype break.
+[transcriptome] WARNING: Skipping transcript ENST00000635667.1 on JAHEOU010000506.1 since one of its exons overlap a haplotype break.
+[transcriptome] WARNING: Skipping transcript ENST00000620210.1 on JAHEOS010000327.1 since one of its exons overlap a haplotype break.
+[transcriptome] WARNING: Skipping transcript ENST00000400943.3 on JAHEPK010000237.1 since one of its exons overlap a haplotype break.
+[transcriptome] WARNING: Skipping transcript ENST00000401776.1 on JAHEPJ010000237.1 since one of its exons overlap a haplotype break.
+[transcriptome] WARNING: Skipping transcript ENST00000420865.6 on JAHEOV010000273.1 since one of its exons overlap a haplotype break.
+[transcriptome] WARNING: Skipping transcript ENST00000452144.6 on JAGYVT010000314.1 since one of its exons overlap a haplotype break.
+[transcriptome] WARNING: Skipping transcript ENST00000454392.1 on JAHEPM010000155.1 since one of its exons overlap a haplotype break.
+[transcriptome] WARNING: Skipping transcript ENST00000377957.4 on JAHEOT010000298.1 since one of its exons overlap a haplotype break.
+[transcriptome] WARNING: Skipping transcript ENST00000474011.5 on JAHEPM010000435.1 since one of its exons overlap a haplotype break.
+[transcriptome] WARNING: Skipping transcript ENST00000456809.1 on JAHEPB010000335.1 since one of its exons overlap a haplotype break.
+[transcriptome] WARNING: Skipping transcript ENST00000528459.1 on JAHEPG010000015.1 since one of its exons overlap a haplotype break.
+[transcriptome] WARNING: Skipping transcript ENST00000532521.2 on JAHEOW010000181.1 since one of its exons overlap a haplotype break.
+[transcriptome] WARNING: Skipping transcript ENST00000651349.1 on JAHEPH010000454.1 since one of its exons overlap a haplotype break.
+[transcriptome] WARNING: Skipping transcript ENST00000623664.1 on JAHEPH010000458.1 since one of its exons overlap a haplotype break.
+[transcriptome] WARNING: Skipping transcript ENST00000603832.1 on JAHBCF010000284.1 since one of its exons overlap a haplotype break.
+[transcriptome] WARNING: Skipping transcript ENST00000538162.3 on JAHEOS010000440.1[transcriptome] WARNING: Skipping transcript ENST00000634947.1 on JAHEPF010000259.1 since one of its exons overlap a haplotype break.
+ since one of its exons overlap a haplotype break.
+[transcriptome] WARNING: Skipping transcript ENST00000623664.1 on JAGYVM010000337.1 since one of its exons overlap a haplotype break.
+[transcriptome] WARNING: Skipping transcript ENST00000651130.1 on JAGYVR010000231.1 since one of its exons overlap a haplotype break.
+[transcriptome] WARNING: Skipping transcript ENST00000651130.1 on JAHAME010000226.1 since one of its exons overlap a haplotype break.
+[transcriptome] WARNING: Skipping transcript ENST00000603832.1 on JAHKSG010000808.1 since one of its exons overlap a haplotype break.
+[transcriptome] WARNING: Skipping transcript ENST00000651130.1 on JAHAMD010000281.1 since one of its exons overlap a haplotype break.
+[vg rna] 20879715 transcripts parsed and graph augmented in 3481.89 seconds, 115.404 GB
+[vg rna] Chopping long nodes ...
+[vg rna] 17362391 nodes chopped in 576.73 seconds, 115.404 GB
+[vg rna] Topological sorting graph and compacting node ids ...
+[vg rna] Graph sorted and compacted in 783.342 seconds, 115.404 GB
+[vg rna] Writing pantranscriptome (reference and haploype transcripts) to file(s) ...
+[vg rna] Writing splicing graph to stdout ...
+[vg rna] Graph and pantranscriptome written in 210.334 seconds, 115.404 GB
+	Command being timed: "bash -c gunzip gencode.v38.primary_assembly.annotation_rename_par.gff3.gz; vg rna -t 24 -p -s source_transcript -j -k 32 -u -n gencode.v38.primary_assembly.annotation_rename_par.gff3 -n <(zcat CHM13.hg38.gff3.gz) -n <(zcat HG00438.1.hg38.gff3.gz) -n <(zcat HG00438.2.hg38.gff3.gz) -n <(zcat HG00621.1.hg38.gff3.gz) -n <(zcat HG00621.2.hg38.gff3.gz) -n <(zcat HG00673.1.hg38.gff3.gz) -n <(zcat HG00673.2.hg38.gff3.gz) -n <(zcat HG00733.1.hg38.gff3.gz) -n <(zcat HG00733.2.hg38.gff3.gz) -n <(zcat HG00735.1.hg38.gff3.gz) -n <(zcat HG00735.2.hg38.gff3.gz) -n <(zcat HG00741.1.hg38.gff3.gz) -n <(zcat HG00741.2.hg38.gff3.gz) -n <(zcat HG01071.1.hg38.gff3.gz) -n <(zcat HG01071.2.hg38.gff3.gz) -n <(zcat HG01106.1.hg38.gff3.gz) -n <(zcat HG01106.2.hg38.gff3.gz) -n <(zcat HG01109.1.hg38.gff3.gz) -n <(zcat HG01109.2.hg38.gff3.gz) -n <(zcat HG01123.1.hg38.gff3.gz) -n <(zcat HG01123.2.hg38.gff3.gz) -n <(zcat HG01175.1.hg38.gff3.gz) -n <(zcat HG01175.2.hg38.gff3.gz) -n <(zcat HG01243.1.hg38.gff3.gz) -n <(zcat HG01243.2.hg38.gff3.gz) -n <(zcat HG01258.1.hg38.gff3.gz) -n <(zcat HG01258.2.hg38.gff3.gz) -n <(zcat HG01358.1.hg38.gff3.gz) -n <(zcat HG01358.2.hg38.gff3.gz) -n <(zcat HG01361.1.hg38.gff3.gz) -n <(zcat HG01361.2.hg38.gff3.gz) -n <(zcat HG01891.1.hg38.gff3.gz) -n <(zcat HG01891.2.hg38.gff3.gz) -n <(zcat HG01928.1.hg38.gff3.gz) -n <(zcat HG01928.2.hg38.gff3.gz) -n <(zcat HG01952.1.hg38.gff3.gz) -n <(zcat HG01952.2.hg38.gff3.gz) -n <(zcat HG01978.1.hg38.gff3.gz) -n <(zcat HG01978.2.hg38.gff3.gz) -n <(zcat HG02055.1.hg38.gff3.gz) -n <(zcat HG02055.2.hg38.gff3.gz) -n <(zcat HG02080.1.hg38.gff3.gz) -n <(zcat HG02080.2.hg38.gff3.gz) -n <(zcat HG02109.1.hg38.gff3.gz) -n <(zcat HG02109.2.hg38.gff3.gz) -n <(zcat HG02145.1.hg38.gff3.gz) -n <(zcat HG02145.2.hg38.gff3.gz) -n <(zcat HG02148.1.hg38.gff3.gz) -n <(zcat HG02148.2.hg38.gff3.gz) -n <(zcat HG02257.1.hg38.gff3.gz) -n <(zcat HG02257.2.hg38.gff3.gz) -n <(zcat HG02486.1.hg38.gff3.gz) -n <(zcat HG02486.2.hg38.gff3.gz) -n <(zcat HG02559.1.hg38.gff3.gz) -n <(zcat HG02559.2.hg38.gff3.gz) -n <(zcat HG02572.1.hg38.gff3.gz) -n <(zcat HG02572.2.hg38.gff3.gz) -n <(zcat HG02622.1.hg38.gff3.gz) -n <(zcat HG02622.2.hg38.gff3.gz) -n <(zcat HG02630.1.hg38.gff3.gz) -n <(zcat HG02630.2.hg38.gff3.gz) -n <(zcat HG02717.1.hg38.gff3.gz) -n <(zcat HG02717.2.hg38.gff3.gz) -n <(zcat HG02723.1.hg38.gff3.gz) -n <(zcat HG02723.2.hg38.gff3.gz) -n <(zcat HG02818.1.hg38.gff3.gz) -n <(zcat HG02818.2.hg38.gff3.gz) -n <(zcat HG02886.1.hg38.gff3.gz) -n <(zcat HG02886.2.hg38.gff3.gz) -n <(zcat HG03098.1.hg38.gff3.gz) -n <(zcat HG03098.2.hg38.gff3.gz) -n <(zcat HG03453.1.hg38.gff3.gz) -n <(zcat HG03453.2.hg38.gff3.gz) -n <(zcat HG03486.1.hg38.gff3.gz) -n <(zcat HG03486.2.hg38.gff3.gz) -n <(zcat HG03492.1.hg38.gff3.gz) -n <(zcat HG03492.2.hg38.gff3.gz) -n <(zcat HG03516.1.hg38.gff3.gz) -n <(zcat HG03516.2.hg38.gff3.gz) -n <(zcat HG03540.1.hg38.gff3.gz) -n <(zcat HG03540.2.hg38.gff3.gz) -n <(zcat HG03579.1.hg38.gff3.gz) -n <(zcat HG03579.2.hg38.gff3.gz) -n <(zcat NA18906.1.hg38.gff3.gz) -n <(zcat NA18906.2.hg38.gff3.gz) -n <(zcat NA20129.1.hg38.gff3.gz) -n <(zcat NA20129.2.hg38.gff3.gz) -n <(zcat NA21309.1.hg38.gff3.gz) -n <(zcat NA21309.2.hg38.gff3.gz) -l GRCh38-f1g-90-mc-aug11-clip.d9.m1000.D10M.m1000.gbwt -b minigraph_cactus_grch38_f1_clip_d9_m1k_D10M_m1k_cat_gencode38_vgrna_k32.gbwt -f minigraph_cactus_grch38_f1_clip_d9_m1k_D10M_m1k_cat_gencode38_vgrna_k32.fa -i minigraph_cactus_grch38_f1_clip_d9_m1k_D10M_m1k_cat_gencode38_vgrna_k32.txt GRCh38-f1g-90-mc-aug11-clip.d9.m1000.D10M.m1000.pg > tmp_graph.pg"
+	User time (seconds): 6344.10
+	System time (seconds): 739.24
+	Percent of CPU this job got: 139%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 1:24:28
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 121009888
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 115
+	Minor (reclaiming a frame) page faults: 127518952
+	Voluntary context switches: 9809864
+	Involuntary context switches: 49509
+	Swaps: 0
+	File system inputs: 95544
+	File system outputs: 25361680
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+[vg rna] Parsing graph file ...
+[vg rna] Graph parsed in 59.3826 seconds, 7.84686 GB
+[vg rna] Adding transcript splice-junctions and exon boundaries to graph ...
+[vg rna] 237079 transcripts parsed and graph augmented in 262.879 seconds, 38.4225 GB
+[vg rna] Projecting transcripts to haplotypes ...
+[vg rna] 0 haplotype transcripts constructed in 215.527 seconds, 38.4225 GB
+[vg rna] Adding reference transcripts as embedded paths in the graph ...
+[vg rna] 237079 paths added in 87.3706 seconds, 38.4225 GB
+[vg rna] Writing splicing graph to stdout ...
+[vg rna] Graph written in 9.54703 seconds, 38.4225 GB
+	Command being timed: "bash -c vg rna -t 24 -p -s source_transcript -e -o -r -n gencode.v38.primary_assembly.annotation_rename_par.gff3 tmp_graph.pg > minigraph_cactus_grch38_f1_clip_d9_m1k_D10M_m1k_cat_gencode38_vgrna_k32.pg"
+	User time (seconds): 618.47
+	System time (seconds): 114.30
+	Percent of CPU this job got: 115%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 10:35.57
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 40288864
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 18830477
+	Voluntary context switches: 396
+	Involuntary context switches: 2554
+	Swaps: 0
+	File system inputs: 2925144
+	File system outputs: 15036096
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+nodes	146269282
+edges	159089525
+length	3153421135
+node-id-range	1:146269282
+2580
+nodes	146269282
+edges	159089525
+length	3153421135
+node-id-range	1:146269282
+239659
+	Command being timed: "bash -c vg stats -z -l -r tmp_graph.pg; vg paths -L -x tmp_graph.pg | wc -l; vg stats -z -l -r minigraph_cactus_grch38_f1_clip_d9_m1k_D10M_m1k_cat_gencode38_vgrna_k32.pg; vg paths -L -x minigraph_cactus_grch38_f1_clip_d9_m1k_D10M_m1k_cat_gencode38_vgrna_k32.pg | wc -l"
+	User time (seconds): 21.89
+	System time (seconds): 26.35
+	Percent of CPU this job got: 100%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:47.93
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 8899172
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 1
+	Minor (reclaiming a frame) page faults: 9544944
+	Voluntary context switches: 73613
+	Involuntary context switches: 62
+	Swaps: 0
+	File system inputs: 128
+	File system outputs: 0
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+	Command being timed: "bash -c gzip minigraph_cactus_grch38_f1_clip_d9_m1k_D10M_m1k_cat_gencode38_vgrna_k32.fa; gzip minigraph_cactus_grch38_f1_clip_d9_m1k_D10M_m1k_cat_gencode38_vgrna_k32.txt"
+	User time (seconds): 237.46
+	System time (seconds): 3.94
+	Percent of CPU this job got: 99%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 4:01.43
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 3164
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 1
+	Minor (reclaiming a frame) page faults: 623
+	Voluntary context switches: 7
+	Involuntary context switches: 564
+	Swaps: 0
+	File system inputs: 192
+	File system outputs: 1248256
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+upload: ./minigraph_cactus_grch38_f1_clip_d9_m1k_D10M_m1k_cat_gencode38_vgrna_k32.txt.gz to s3://vg-k8s/users/jsibbesen/hprc/pilot/pantranscriptomes/minigraph_cactus_grch38_f1_clip_d9_m1k_D10M_m1k_cat_gencode38_vgrna_k32/minigraph_cactus_grch38_f1_clip_d9_m1k_D10M_m1k_cat_gencode38_vgrna_k32.txt.gz
+upload: ./minigraph_cactus_grch38_f1_clip_d9_m1k_D10M_m1k_cat_gencode38_vgrna_k32.gbwt to s3://vg-k8s/users/jsibbesen/hprc/pilot/pantranscriptomes/minigraph_cactus_grch38_f1_clip_d9_m1k_D10M_m1k_cat_gencode38_vgrna_k32/minigraph_cactus_grch38_f1_clip_d9_m1k_D10M_m1k_cat_gencode38_vgrna_k32.gbwt
+upload: ./minigraph_cactus_grch38_f1_clip_d9_m1k_D10M_m1k_cat_gencode38_vgrna_k32.fa.gz to s3://vg-k8s/users/jsibbesen/hprc/pilot/pantranscriptomes/minigraph_cactus_grch38_f1_clip_d9_m1k_D10M_m1k_cat_gencode38_vgrna_k32/minigraph_cactus_grch38_f1_clip_d9_m1k_D10M_m1k_cat_gencode38_vgrna_k32.fa.gz
+upload: ./minigraph_cactus_grch38_f1_clip_d9_m1k_D10M_m1k_cat_gencode38_vgrna_k32.pg to s3://vg-k8s/users/jsibbesen/hprc/pilot/pantranscriptomes/minigraph_cactus_grch38_f1_clip_d9_m1k_D10M_m1k_cat_gencode38_vgrna_k32/minigraph_cactus_grch38_f1_clip_d9_m1k_D10M_m1k_cat_gencode38_vgrna_k32.pg
+---

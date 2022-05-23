@@ -1,0 +1,390 @@
+---
+jas-join-pt-1kg-nygc-no001-af001-gc38-k32-0403-1733
+TIME=20220403-1733 IMAGE=quay.io/jsibbesen/vg-s3script:vg-1.38.0-s2 MEMORY=16 CPU=1 DISK=64
+s3://vg-k8s/users/jsibbesen/hprc/pilot/pantranscriptomes/1kg_nygc_no001trio_af001_gencode38_k32/join.sh
+CPU=1
+---
+Completed 1.1 KiB/1.1 KiB (9.3 KiB/s) with 1 file(s) remainingdownload: s3://vg-k8s/users/jsibbesen/hprc/pilot/pantranscriptomes/1kg_nygc_no001trio_af001_gencode38_k32/join.sh to ./join.sh
+download: s3://vg-k8s/users/jsibbesen/hprc/pilot/pantranscriptomes/1kg_nygc_no001trio_af001_gencode38_k32/11/1kg_nygc_no001trio_af001_gencode38_k32_11.pg to 11/1kg_nygc_no001trio_af001_gencode38_k32_11.pg
+download: s3://vg-k8s/users/jsibbesen/hprc/pilot/pantranscriptomes/1kg_nygc_no001trio_af001_gencode38_k32/13/1kg_nygc_no001trio_af001_gencode38_k32_13.pg to 13/1kg_nygc_no001trio_af001_gencode38_k32_13.pg
+download: s3://vg-k8s/users/jsibbesen/hprc/pilot/pantranscriptomes/1kg_nygc_no001trio_af001_gencode38_k32/12/1kg_nygc_no001trio_af001_gencode38_k32_12.pg to 12/1kg_nygc_no001trio_af001_gencode38_k32_12.pg
+download: s3://vg-k8s/users/jsibbesen/hprc/pilot/pantranscriptomes/1kg_nygc_no001trio_af001_gencode38_k32/10/1kg_nygc_no001trio_af001_gencode38_k32_10.pg to 10/1kg_nygc_no001trio_af001_gencode38_k32_10.pg
+download: s3://vg-k8s/users/jsibbesen/hprc/pilot/pantranscriptomes/1kg_nygc_no001trio_af001_gencode38_k32/14/1kg_nygc_no001trio_af001_gencode38_k32_14.pg to 14/1kg_nygc_no001trio_af001_gencode38_k32_14.pg
+download: s3://vg-k8s/users/jsibbesen/hprc/pilot/pantranscriptomes/1kg_nygc_no001trio_af001_gencode38_k32/15/1kg_nygc_no001trio_af001_gencode38_k32_15.pg to 15/1kg_nygc_no001trio_af001_gencode38_k32_15.pg
+download: s3://vg-k8s/users/jsibbesen/hprc/pilot/pantranscriptomes/1kg_nygc_no001trio_af001_gencode38_k32/17/1kg_nygc_no001trio_af001_gencode38_k32_17.pg to 17/1kg_nygc_no001trio_af001_gencode38_k32_17.pg
+download: s3://vg-k8s/users/jsibbesen/hprc/pilot/pantranscriptomes/1kg_nygc_no001trio_af001_gencode38_k32/16/1kg_nygc_no001trio_af001_gencode38_k32_16.pg to 16/1kg_nygc_no001trio_af001_gencode38_k32_16.pg
+download: s3://vg-k8s/users/jsibbesen/hprc/pilot/pantranscriptomes/1kg_nygc_no001trio_af001_gencode38_k32/1/1kg_nygc_no001trio_af001_gencode38_k32_1.pg to 1/1kg_nygc_no001trio_af001_gencode38_k32_1.pg
+download: s3://vg-k8s/users/jsibbesen/hprc/pilot/pantranscriptomes/1kg_nygc_no001trio_af001_gencode38_k32/19/1kg_nygc_no001trio_af001_gencode38_k32_19.pg to 19/1kg_nygc_no001trio_af001_gencode38_k32_19.pg
+download: s3://vg-k8s/users/jsibbesen/hprc/pilot/pantranscriptomes/1kg_nygc_no001trio_af001_gencode38_k32/18/1kg_nygc_no001trio_af001_gencode38_k32_18.pg to 18/1kg_nygc_no001trio_af001_gencode38_k32_18.pg
+download: s3://vg-k8s/users/jsibbesen/hprc/pilot/pantranscriptomes/1kg_nygc_no001trio_af001_gencode38_k32/21/1kg_nygc_no001trio_af001_gencode38_k32_21.pg to 21/1kg_nygc_no001trio_af001_gencode38_k32_21.pg
+download: s3://vg-k8s/users/jsibbesen/hprc/pilot/pantranscriptomes/1kg_nygc_no001trio_af001_gencode38_k32/20/1kg_nygc_no001trio_af001_gencode38_k32_20.pg to 20/1kg_nygc_no001trio_af001_gencode38_k32_20.pg
+download: s3://vg-k8s/users/jsibbesen/hprc/pilot/pantranscriptomes/1kg_nygc_no001trio_af001_gencode38_k32/22/1kg_nygc_no001trio_af001_gencode38_k32_22.pg to 22/1kg_nygc_no001trio_af001_gencode38_k32_22.pg
+download: s3://vg-k8s/users/jsibbesen/hprc/pilot/pantranscriptomes/1kg_nygc_no001trio_af001_gencode38_k32/2/1kg_nygc_no001trio_af001_gencode38_k32_2.pg to 2/1kg_nygc_no001trio_af001_gencode38_k32_2.pg
+download: s3://vg-k8s/users/jsibbesen/hprc/pilot/pantranscriptomes/1kg_nygc_no001trio_af001_gencode38_k32/3/1kg_nygc_no001trio_af001_gencode38_k32_3.pg to 3/1kg_nygc_no001trio_af001_gencode38_k32_3.pg
+download: s3://vg-k8s/users/jsibbesen/hprc/pilot/pantranscriptomes/1kg_nygc_no001trio_af001_gencode38_k32/6/1kg_nygc_no001trio_af001_gencode38_k32_6.pg to 6/1kg_nygc_no001trio_af001_gencode38_k32_6.pg
+download: s3://vg-k8s/users/jsibbesen/hprc/pilot/pantranscriptomes/1kg_nygc_no001trio_af001_gencode38_k32/4/1kg_nygc_no001trio_af001_gencode38_k32_4.pg to 4/1kg_nygc_no001trio_af001_gencode38_k32_4.pg
+download: s3://vg-k8s/users/jsibbesen/hprc/pilot/pantranscriptomes/1kg_nygc_no001trio_af001_gencode38_k32/M/1kg_nygc_no001trio_af001_gencode38_k32_M.pg to M/1kg_nygc_no001trio_af001_gencode38_k32_M.pg
+download: s3://vg-k8s/users/jsibbesen/hprc/pilot/pantranscriptomes/1kg_nygc_no001trio_af001_gencode38_k32/5/1kg_nygc_no001trio_af001_gencode38_k32_5.pg to 5/1kg_nygc_no001trio_af001_gencode38_k32_5.pg
+download: s3://vg-k8s/users/jsibbesen/hprc/pilot/pantranscriptomes/1kg_nygc_no001trio_af001_gencode38_k32/SCA/1kg_nygc_no001trio_af001_gencode38_k32_SCA.pg to SCA/1kg_nygc_no001trio_af001_gencode38_k32_SCA.pg
+download: s3://vg-k8s/users/jsibbesen/hprc/pilot/pantranscriptomes/1kg_nygc_no001trio_af001_gencode38_k32/Y/1kg_nygc_no001trio_af001_gencode38_k32_Y.pg to Y/1kg_nygc_no001trio_af001_gencode38_k32_Y.pg
+download: s3://vg-k8s/users/jsibbesen/hprc/pilot/pantranscriptomes/1kg_nygc_no001trio_af001_gencode38_k32/9/1kg_nygc_no001trio_af001_gencode38_k32_9.pg to 9/1kg_nygc_no001trio_af001_gencode38_k32_9.pg
+download: s3://vg-k8s/users/jsibbesen/hprc/pilot/pantranscriptomes/1kg_nygc_no001trio_af001_gencode38_k32/X/1kg_nygc_no001trio_af001_gencode38_k32_X.pg to X/1kg_nygc_no001trio_af001_gencode38_k32_X.pg
+download: s3://vg-k8s/users/jsibbesen/hprc/pilot/pantranscriptomes/1kg_nygc_no001trio_af001_gencode38_k32/8/1kg_nygc_no001trio_af001_gencode38_k32_8.pg to 8/1kg_nygc_no001trio_af001_gencode38_k32_8.pg
+download: s3://vg-k8s/users/jsibbesen/hprc/pilot/pantranscriptomes/1kg_nygc_no001trio_af001_gencode38_k32/7/1kg_nygc_no001trio_af001_gencode38_k32_7.pg to 7/1kg_nygc_no001trio_af001_gencode38_k32_7.pg
+1
+nodes	14374502
+edges	17542164
+length	252540257
+node-id-range	1:14374502
+2
+nodes	14393845
+edges	17643316
+length	245918903
+node-id-range	1:14393845
+3
+nodes	11863881
+edges	14554813
+length	201351609
+node-id-range	1:11863881
+4
+nodes	11554633
+edges	14210089
+length	193250172
+node-id-range	1:11554633
+5
+nodes	10858437
+edges	13319602
+length	184344979
+node-id-range	1:10858437
+6
+nodes	10359240
+edges	12754617
+length	173550652
+node-id-range	1:10359240
+7
+nodes	9718324
+edges	11984605
+length	161983867
+node-id-range	1:9718324
+8
+nodes	8939211
+edges	11017091
+length	147521911
+node-id-range	1:8939211
+9
+nodes	7927410
+edges	9633317
+length	140332846
+node-id-range	1:7927410
+10
+nodes	8212486
+edges	10141369
+length	136028641
+node-id-range	1:8212486
+11
+nodes	8136768
+edges	9992174
+length	137197258
+node-id-range	1:8136768
+12
+nodes	7997972
+edges	9840658
+length	135403177
+node-id-range	1:7997972
+13
+nodes	6477706
+edges	7858914
+length	115967343
+node-id-range	1:6477706
+14
+nodes	5959025
+edges	7207550
+length	108463989
+node-id-range	1:5959025
+15
+nodes	5604922
+edges	6758502
+length	103296056
+node-id-range	1:5604922
+16
+nodes	5456720
+edges	6712395
+length	91797760
+node-id-range	1:5456720
+17
+nodes	4958417
+edges	6112849
+length	84621099
+node-id-range	1:4958417
+18
+nodes	4762196
+edges	5832325
+length	81608388
+node-id-range	1:4762196
+19
+nodes	3772557
+edges	4730669
+length	59756558
+node-id-range	1:3772557
+20
+nodes	3905083
+edges	4811895
+length	65507066
+node-id-range	1:3905083
+21
+nodes	2634608
+edges	3192714
+length	47361535
+node-id-range	1:2634608
+22
+nodes	2825456
+edges	3420795
+length	51520735
+node-id-range	1:2825456
+X
+nodes	8319258
+edges	10056356
+length	158230886
+node-id-range	1:8319258
+Y
+nodes	1986798
+edges	2075111
+length	57331464
+node-id-range	1:1986798
+M
+nodes	570
+edges	569
+length	16569
+node-id-range	1:570
+SCA
+nodes	1337585
+edges	1701852
+length	17829448
+node-id-range	1:1337585
+	Command being timed: "bash -c for i in $(seq 1 22; echo X; echo Y; echo M; echo SCA); do echo ${i}; vg stats -z -l -r ${i}/1kg_nygc_no001trio_af001_gencode38_k32_${i}.pg; done"
+	User time (seconds): 488.65
+	System time (seconds): 29.63
+	Percent of CPU this job got: 99%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 8:38.65
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 2873032
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 1
+	Minor (reclaiming a frame) page faults: 8586003
+	Voluntary context switches: 179
+	Involuntary context switches: 3531
+	Swaps: 0
+	File system inputs: 11406984
+	File system outputs: 0
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+	Command being timed: "bash -c vg ids -j $(for i in $(seq 1 22; echo X; echo Y; echo M; echo SCA); do echo ${i}/1kg_nygc_no001trio_af001_gencode38_k32_${i}.pg; done) -m empty_node_mapping.map"
+	User time (seconds): 798.92
+	System time (seconds): 40.40
+	Percent of CPU this job got: 99%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 14:00.98
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 2943036
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 7227996
+	Voluntary context switches: 4548
+	Involuntary context switches: 5870
+	Swaps: 0
+	File system inputs: 22863000
+	File system outputs: 37648792
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+1
+nodes	14374502
+edges	17542164
+length	252540257
+node-id-range	1:14374502
+2
+nodes	14393845
+edges	17643316
+length	245918903
+node-id-range	14374503:28768347
+3
+nodes	11863881
+edges	14554813
+length	201351609
+node-id-range	28768348:40632228
+4
+nodes	11554633
+edges	14210089
+length	193250172
+node-id-range	40632229:52186861
+5
+nodes	10858437
+edges	13319602
+length	184344979
+node-id-range	52186862:63045298
+6
+nodes	10359240
+edges	12754617
+length	173550652
+node-id-range	63045299:73404538
+7
+nodes	9718324
+edges	11984605
+length	161983867
+node-id-range	73404539:83122862
+8
+nodes	8939211
+edges	11017091
+length	147521911
+node-id-range	83122863:92062073
+9
+nodes	7927410
+edges	9633317
+length	140332846
+node-id-range	92062074:99989483
+10
+nodes	8212486
+edges	10141369
+length	136028641
+node-id-range	99989484:108201969
+11
+nodes	8136768
+edges	9992174
+length	137197258
+node-id-range	108201970:116338737
+12
+nodes	7997972
+edges	9840658
+length	135403177
+node-id-range	116338738:124336709
+13
+nodes	6477706
+edges	7858914
+length	115967343
+node-id-range	124336710:130814415
+14
+nodes	5959025
+edges	7207550
+length	108463989
+node-id-range	130814416:136773440
+15
+nodes	5604922
+edges	6758502
+length	103296056
+node-id-range	136773441:142378362
+16
+nodes	5456720
+edges	6712395
+length	91797760
+node-id-range	142378363:147835082
+17
+nodes	4958417
+edges	6112849
+length	84621099
+node-id-range	147835083:152793499
+18
+nodes	4762196
+edges	5832325
+length	81608388
+node-id-range	152793500:157555695
+19
+nodes	3772557
+edges	4730669
+length	59756558
+node-id-range	157555696:161328252
+20
+nodes	3905083
+edges	4811895
+length	65507066
+node-id-range	161328253:165233335
+21
+nodes	2634608
+edges	3192714
+length	47361535
+node-id-range	165233336:167867943
+22
+nodes	2825456
+edges	3420795
+length	51520735
+node-id-range	167867944:170693399
+X
+nodes	8319258
+edges	10056356
+length	158230886
+node-id-range	170693400:179012657
+Y
+nodes	1986798
+edges	2075111
+length	57331464
+node-id-range	179012658:180999455
+M
+nodes	570
+edges	569
+length	16569
+node-id-range	180999456:181000025
+SCA
+nodes	1337585
+edges	1701852
+length	17829448
+node-id-range	181000026:182337610
+	Command being timed: "bash -c for i in $(seq 1 22; echo X; echo Y; echo M; echo SCA); do echo ${i}; vg stats -z -l -r ${i}/1kg_nygc_no001trio_af001_gencode38_k32_${i}.pg; done"
+	User time (seconds): 492.01
+	System time (seconds): 36.76
+	Percent of CPU this job got: 99%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 8:49.23
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 2879632
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 1
+	Minor (reclaiming a frame) page faults: 8842268
+	Voluntary context switches: 115
+	Involuntary context switches: 7366
+	Swaps: 0
+	File system inputs: 37648632
+	File system outputs: 0
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+upload: 13/1kg_nygc_no001trio_af001_gencode38_k32_13.pg to s3://vg-k8s/users/jsibbesen/hprc/pilot/pantranscriptomes/1kg_nygc_no001trio_af001_gencode38_k32/13/1kg_nygc_no001trio_af001_gencode38_k32_13.pg
+upload: 11/1kg_nygc_no001trio_af001_gencode38_k32_11.pg to s3://vg-k8s/users/jsibbesen/hprc/pilot/pantranscriptomes/1kg_nygc_no001trio_af001_gencode38_k32/11/1kg_nygc_no001trio_af001_gencode38_k32_11.pg
+upload: 10/1kg_nygc_no001trio_af001_gencode38_k32_10.pg to s3://vg-k8s/users/jsibbesen/hprc/pilot/pantranscriptomes/1kg_nygc_no001trio_af001_gencode38_k32/10/1kg_nygc_no001trio_af001_gencode38_k32_10.pg
+upload: 12/1kg_nygc_no001trio_af001_gencode38_k32_12.pg to s3://vg-k8s/users/jsibbesen/hprc/pilot/pantranscriptomes/1kg_nygc_no001trio_af001_gencode38_k32/12/1kg_nygc_no001trio_af001_gencode38_k32_12.pg
+upload: 14/1kg_nygc_no001trio_af001_gencode38_k32_14.pg to s3://vg-k8s/users/jsibbesen/hprc/pilot/pantranscriptomes/1kg_nygc_no001trio_af001_gencode38_k32/14/1kg_nygc_no001trio_af001_gencode38_k32_14.pg
+upload: 17/1kg_nygc_no001trio_af001_gencode38_k32_17.pg to s3://vg-k8s/users/jsibbesen/hprc/pilot/pantranscriptomes/1kg_nygc_no001trio_af001_gencode38_k32/17/1kg_nygc_no001trio_af001_gencode38_k32_17.pg
+upload: 15/1kg_nygc_no001trio_af001_gencode38_k32_15.pg to s3://vg-k8s/users/jsibbesen/hprc/pilot/pantranscriptomes/1kg_nygc_no001trio_af001_gencode38_k32/15/1kg_nygc_no001trio_af001_gencode38_k32_15.pg
+upload: 16/1kg_nygc_no001trio_af001_gencode38_k32_16.pg to s3://vg-k8s/users/jsibbesen/hprc/pilot/pantranscriptomes/1kg_nygc_no001trio_af001_gencode38_k32/16/1kg_nygc_no001trio_af001_gencode38_k32_16.pg
+upload: 1/1kg_nygc_no001trio_af001_gencode38_k32_1.pg to s3://vg-k8s/users/jsibbesen/hprc/pilot/pantranscriptomes/1kg_nygc_no001trio_af001_gencode38_k32/1/1kg_nygc_no001trio_af001_gencode38_k32_1.pg
+upload: 18/1kg_nygc_no001trio_af001_gencode38_k32_18.pg to s3://vg-k8s/users/jsibbesen/hprc/pilot/pantranscriptomes/1kg_nygc_no001trio_af001_gencode38_k32/18/1kg_nygc_no001trio_af001_gencode38_k32_18.pg
+upload: 21/1kg_nygc_no001trio_af001_gencode38_k32_21.pg to s3://vg-k8s/users/jsibbesen/hprc/pilot/pantranscriptomes/1kg_nygc_no001trio_af001_gencode38_k32/21/1kg_nygc_no001trio_af001_gencode38_k32_21.pg
+upload: 19/1kg_nygc_no001trio_af001_gencode38_k32_19.pg to s3://vg-k8s/users/jsibbesen/hprc/pilot/pantranscriptomes/1kg_nygc_no001trio_af001_gencode38_k32/19/1kg_nygc_no001trio_af001_gencode38_k32_19.pg
+upload: 20/1kg_nygc_no001trio_af001_gencode38_k32_20.pg to s3://vg-k8s/users/jsibbesen/hprc/pilot/pantranscriptomes/1kg_nygc_no001trio_af001_gencode38_k32/20/1kg_nygc_no001trio_af001_gencode38_k32_20.pg
+upload: 22/1kg_nygc_no001trio_af001_gencode38_k32_22.pg to s3://vg-k8s/users/jsibbesen/hprc/pilot/pantranscriptomes/1kg_nygc_no001trio_af001_gencode38_k32/22/1kg_nygc_no001trio_af001_gencode38_k32_22.pg
+upload: 2/1kg_nygc_no001trio_af001_gencode38_k32_2.pg to s3://vg-k8s/users/jsibbesen/hprc/pilot/pantranscriptomes/1kg_nygc_no001trio_af001_gencode38_k32/2/1kg_nygc_no001trio_af001_gencode38_k32_2.pg
+upload: 3/1kg_nygc_no001trio_af001_gencode38_k32_3.pg to s3://vg-k8s/users/jsibbesen/hprc/pilot/pantranscriptomes/1kg_nygc_no001trio_af001_gencode38_k32/3/1kg_nygc_no001trio_af001_gencode38_k32_3.pg
+upload: 6/1kg_nygc_no001trio_af001_gencode38_k32_6.pg to s3://vg-k8s/users/jsibbesen/hprc/pilot/pantranscriptomes/1kg_nygc_no001trio_af001_gencode38_k32/6/1kg_nygc_no001trio_af001_gencode38_k32_6.pg
+upload: M/1kg_nygc_no001trio_af001_gencode38_k32_M.pg to s3://vg-k8s/users/jsibbesen/hprc/pilot/pantranscriptomes/1kg_nygc_no001trio_af001_gencode38_k32/M/1kg_nygc_no001trio_af001_gencode38_k32_M.pg
+upload: 4/1kg_nygc_no001trio_af001_gencode38_k32_4.pg to s3://vg-k8s/users/jsibbesen/hprc/pilot/pantranscriptomes/1kg_nygc_no001trio_af001_gencode38_k32/4/1kg_nygc_no001trio_af001_gencode38_k32_4.pg
+upload: 5/1kg_nygc_no001trio_af001_gencode38_k32_5.pg to s3://vg-k8s/users/jsibbesen/hprc/pilot/pantranscriptomes/1kg_nygc_no001trio_af001_gencode38_k32/5/1kg_nygc_no001trio_af001_gencode38_k32_5.pg
+upload: SCA/1kg_nygc_no001trio_af001_gencode38_k32_SCA.pg to s3://vg-k8s/users/jsibbesen/hprc/pilot/pantranscriptomes/1kg_nygc_no001trio_af001_gencode38_k32/SCA/1kg_nygc_no001trio_af001_gencode38_k32_SCA.pg
+upload: Y/1kg_nygc_no001trio_af001_gencode38_k32_Y.pg to s3://vg-k8s/users/jsibbesen/hprc/pilot/pantranscriptomes/1kg_nygc_no001trio_af001_gencode38_k32/Y/1kg_nygc_no001trio_af001_gencode38_k32_Y.pg
+upload: X/1kg_nygc_no001trio_af001_gencode38_k32_X.pg to s3://vg-k8s/users/jsibbesen/hprc/pilot/pantranscriptomes/1kg_nygc_no001trio_af001_gencode38_k32/X/1kg_nygc_no001trio_af001_gencode38_k32_X.pg
+upload: 9/1kg_nygc_no001trio_af001_gencode38_k32_9.pg to s3://vg-k8s/users/jsibbesen/hprc/pilot/pantranscriptomes/1kg_nygc_no001trio_af001_gencode38_k32/9/1kg_nygc_no001trio_af001_gencode38_k32_9.pg
+upload: 7/1kg_nygc_no001trio_af001_gencode38_k32_7.pg to s3://vg-k8s/users/jsibbesen/hprc/pilot/pantranscriptomes/1kg_nygc_no001trio_af001_gencode38_k32/7/1kg_nygc_no001trio_af001_gencode38_k32_7.pg
+upload: 8/1kg_nygc_no001trio_af001_gencode38_k32_8.pg to s3://vg-k8s/users/jsibbesen/hprc/pilot/pantranscriptomes/1kg_nygc_no001trio_af001_gencode38_k32/8/1kg_nygc_no001trio_af001_gencode38_k32_8.pg
+upload: ./empty_node_mapping.map to s3://vg-k8s/users/jsibbesen/hprc/pilot/pantranscriptomes/1kg_nygc_no001trio_af001_gencode38_k32/empty_node_mapping.map
+---

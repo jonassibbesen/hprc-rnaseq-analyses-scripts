@@ -1,0 +1,209 @@
+---
+jas-project-pt-1kg-nygc-no001-af001-gc38-k32-8-0404-1139
+TIME=20220404-1139 IMAGE=quay.io/jsibbesen/vg-s3script:vg-1.38.0-s2 MEMORY=48 CPU=8 DISK=64
+s3://vg-k8s/users/jsibbesen/hprc/pilot/pantranscriptomes/1kg_nygc_no001trio_af001_gencode38_k32/project.sh
+CPU=8 CHR=8
+---
+Completed 3.2 KiB/3.2 KiB (43.1 KiB/s) with 1 file(s) remainingdownload: s3://vg-k8s/users/jsibbesen/hprc/pilot/pantranscriptomes/1kg_nygc_no001trio_af001_gencode38_k32/project.sh to ./project.sh
+download: s3://vg-k8s/users/jsibbesen/hprc/pilot/data/genomes/GRCh38/grch38_main.fa to ./grch38_main.fa
+download: s3://vg-k8s/users/jsibbesen/hprc/pilot/data/genomes/GRCh38/grch38_main.fa.fai to ./grch38_main.fa.fai
+download: s3://vg-k8s/users/jsibbesen/hprc/pilot/data/annotations/reference/grch38/gencode38/gencode.v38.primary_assembly.annotation_rename_par.gff3.gz to ./gencode.v38.primary_assembly.annotation_rename_par.gff3.gz
+download: s3://vg-k8s/users/jsibbesen/hprc/pilot/pantranscriptomes/1kg_nygc_no001trio_af001_gencode38_k32/8/1kg_nygc_no001trio_af001_gencode38_k32_8.pg to ./1kg_nygc_no001trio_af001_gencode38_k32_8.pg
+download: s3://vg-k8s/users/jsibbesen/hprc/pilot/data/variants/nygc_1kg_grch38_20201028_3202_phased/CCDG_14151_B01_GRM_WGS_2020-08-05_chr8.filtered.shapeit2-duohmm-phased.vcf.gz to ./CCDG_14151_B01_GRM_WGS_2020-08-05_chr8.filtered.shapeit2-duohmm-phased.vcf.gz
+Lines   total/split/realigned/skipped:	3888893/0/0/0
+Lines   total/split/realigned/skipped:	1905577/0/0/0
+	Command being timed: "bash -c zcat CCDG_14151_B01_GRM_WGS_2020-08-05_chr8.filtered.shapeit2-duohmm-phased.vcf.gz | sed -e 's/^chr/GRCh38.chr/g' | sed -e 's/ID=chr/ID=GRCh38.chr/g' | bcftools view -t GRCh38.chr8 -s ^NA12878,NA12891,NA12892 --force-samples -f PASS | bcftools norm -m -any -f grch38_main.fa | bcftools view -q 0.001 | bcftools norm -m +any -O z -f grch38_main.fa > 8.vcf.gz; tabix 8.vcf.gz"
+	User time (seconds): 3943.73
+	System time (seconds): 298.38
+	Percent of CPU this job got: 326%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 21:39.96
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 17928
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 161275
+	Voluntary context switches: 18869634
+	Involuntary context switches: 2862
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 2524864
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+GBWT: Parsing VCF file 8.vcf.gz with options
+GBWT: Samples 0 to 3198, batch size 200
+GBWT: Path GRCh38.chr8 matches VCF contig GRCh38.chr8
+GBWT: Processed 1790876 variants on path GRCh38.chr8, 851.222 MiB phasing information
+GBWT: Saving the VCF parse for path GRCh38.chr8 to /tmp/parse_jas-project-pt-1kg-nygc-no001-a_89_0
+GBWT: Generating haplotypes for path GRCh38.chr8 from file /tmp/parse_jas-project-pt-1kg-nygc-no001-a_89_0
+GBWT: 743999 paths with names, 3199 samples with names, 6398 haplotypes, 1 contigs with names
+Saving dynamic GBWT to 8.gbwt
+Memory usage: 5.72933 GB
+	Command being timed: "bash -c vg index -p -t 8 -G 8.gbwt -v 8.vcf.gz 1kg_nygc_no001trio_af001_gencode38_k32_8.pg"
+	User time (seconds): 24468.67
+	System time (seconds): 282.43
+	Percent of CPU this job got: 102%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 6:41:40
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 6007636
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 206690937
+	Voluntary context switches: 925
+	Involuntary context switches: 38137
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 3320608
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+	Command being timed: "bash -c zcat gencode.v38.primary_assembly.annotation_rename_par.gff3.gz | grep -P '^GRCh38.chr8\t' > 8.gtf"
+	User time (seconds): 4.98
+	System time (seconds): 0.72
+	Percent of CPU this job got: 113%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:05.01
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 2956
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 566
+	Voluntary context switches: 45703
+	Involuntary context switches: 22
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 107152
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+nodes	8939211
+edges	11017091
+length	147521911
+node-id-range	83122863:92062073
+	Command being timed: "bash -c vg stats -z -l -r 1kg_nygc_no001trio_af001_gencode38_k32_8.pg"
+	User time (seconds): 22.72
+	System time (seconds): 0.57
+	Percent of CPU this job got: 100%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:23.29
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 1888504
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 11243
+	Voluntary context switches: 1
+	Involuntary context switches: 28
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 0
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+[vg rna] Parsing graph file ...
+[vg rna] Parsing haplotype GBWT index file ...
+[vg rna] Graph and GBWT index parsed in 23.362 seconds, 2.50049 GB
+[vg rna] Adding transcript splice-junctions and exon boundaries to graph ...
+[vg rna] 9747 transcripts parsed and graph augmented in 45.0659 seconds, 5.96008 GB
+[vg rna] Projecting transcripts to haplotypes ...
+[vg rna] 381664 haplotype transcripts constructed in 1920.56 seconds, 8.46816 GB
+[vg rna] Adding reference transcripts as embedded paths in the graph ...
+[vg rna] 9747 paths added in 1.924 seconds, 8.46816 GB
+[vg rna] Writing pantranscriptome (haploype transcripts) to file(s) ...
+[vg rna] Writing splicing graph to stdout ...
+[vg rna] Graph and pantranscriptome written in 93.5529 seconds, 9.67427 GB
+	Command being timed: "bash -c vg rna -p -t 8 -s source_transcript -o -r -n 8.gtf -l 8.gbwt -b 1kg_nygc_no001trio_af001_gencode38_k32_8.gbwt -f 1kg_nygc_no001trio_af001_gencode38_k32_8.fa -i 1kg_nygc_no001trio_af001_gencode38_k32_8.txt 1kg_nygc_no001trio_af001_gencode38_k32_8.pg > 1kg_nygc_no001trio_af001_gencode38_k32_8_tmp.pg; mv 1kg_nygc_no001trio_af001_gencode38_k32_8_tmp.pg 1kg_nygc_no001trio_af001_gencode38_k32_8.pg"
+	User time (seconds): 14592.08
+	System time (seconds): 19.65
+	Percent of CPU this job got: 700%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 34:45.15
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 10144212
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 4401739
+	Voluntary context switches: 87
+	Involuntary context switches: 63815
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 8943872
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+nodes	8939211
+edges	11017316
+length	147521911
+node-id-range	83122863:92062073
+	Command being timed: "bash -c vg stats -z -l -r 1kg_nygc_no001trio_af001_gencode38_k32_8.pg"
+	User time (seconds): 22.12
+	System time (seconds): 0.57
+	Percent of CPU this job got: 99%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:22.70
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 1900796
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 10833
+	Voluntary context switches: 1
+	Involuntary context switches: 38
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 0
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+	Command being timed: "bash -c gzip 1kg_nygc_no001trio_af001_gencode38_k32_8.fa; gzip 1kg_nygc_no001trio_af001_gencode38_k32_8.txt"
+	User time (seconds): 75.55
+	System time (seconds): 1.20
+	Percent of CPU this job got: 99%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 1:16.76
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 3160
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 939
+	Voluntary context switches: 5
+	Involuntary context switches: 102
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 604008
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+upload: ./1kg_nygc_no001trio_af001_gencode38_k32_8.gbwt to s3://vg-k8s/users/jsibbesen/hprc/pilot/pantranscriptomes/1kg_nygc_no001trio_af001_gencode38_k32/8/1kg_nygc_no001trio_af001_gencode38_k32_8.gbwt
+upload: ./1kg_nygc_no001trio_af001_gencode38_k32_8.fa.gz to s3://vg-k8s/users/jsibbesen/hprc/pilot/pantranscriptomes/1kg_nygc_no001trio_af001_gencode38_k32/8/1kg_nygc_no001trio_af001_gencode38_k32_8.fa.gz
+upload: ./1kg_nygc_no001trio_af001_gencode38_k32_8.txt.gz to s3://vg-k8s/users/jsibbesen/hprc/pilot/pantranscriptomes/1kg_nygc_no001trio_af001_gencode38_k32/8/1kg_nygc_no001trio_af001_gencode38_k32_8.txt.gz
+upload: ./1kg_nygc_no001trio_af001_gencode38_k32_8.pg to s3://vg-k8s/users/jsibbesen/hprc/pilot/pantranscriptomes/1kg_nygc_no001trio_af001_gencode38_k32/8/1kg_nygc_no001trio_af001_gencode38_k32_8.pg
+---

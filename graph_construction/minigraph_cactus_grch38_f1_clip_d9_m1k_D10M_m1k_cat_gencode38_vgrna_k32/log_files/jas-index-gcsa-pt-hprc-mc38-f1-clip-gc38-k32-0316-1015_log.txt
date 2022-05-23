@@ -1,0 +1,134 @@
+---
+jas-index-gcsa-pt-hprc-mc38-f1-clip-gc38-k32-0316-1015
+TIME=20220316-1015 IMAGE=quay.io/jsibbesen/vg-s3script:vg-1.38.0-s2 MEMORY=352 CPU=8 DISK=2200
+s3://vg-k8s/users/jsibbesen/hprc/pilot/pantranscriptomes/minigraph_cactus_grch38_f1_clip_d9_m1k_D10M_m1k_cat_gencode38_vgrna_k32/index_gcsa.sh
+CPU=8
+---
+Completed 651 Bytes/651 Bytes (6.1 KiB/s) with 1 file(s) remainingdownload: s3://vg-k8s/users/jsibbesen/hprc/pilot/pantranscriptomes/minigraph_cactus_grch38_f1_clip_d9_m1k_D10M_m1k_cat_gencode38_vgrna_k32/index_gcsa.sh to ./index_gcsa.sh
+download: s3://vg-k8s/users/jsibbesen/hprc/pilot/pantranscriptomes/minigraph_cactus_grch38_f1_clip_d9_m1k_D10M_m1k_cat_gencode38_vgrna_k32/minigraph_cactus_grch38_f1_clip_d9_m1k_D10M_m1k_cat_gencode38_vgrna_k32.pg to ./minigraph_cactus_grch38_f1_clip_d9_m1k_D10M_m1k_cat_gencode38_vgrna_k32.pg
+Original graph minigraph_cactus_grch38_f1_clip_d9_m1k_D10M_m1k_cat_gencode38_vgrna_k32.pg: 146269282 nodes, 159089525 edges
+Built a temporary XG index
+Removed all paths
+Removed high-degree nodes: 146269282 nodes, 159089525 edges
+Pruned complex regions: 146269282 nodes, 152191262 edges
+Removed small subgraphs: 141157552 nodes, 150328668 edges
+Restored graph: 143629298 nodes
+Serialized the graph: 143629298 nodes, 153339920 edges
+	Command being timed: "bash -c vg prune -p -t 8 -k 64 -M 64 -r minigraph_cactus_grch38_f1_clip_d9_m1k_D10M_m1k_cat_gencode38_vgrna_k32.pg > graph.pruned.pg"
+	User time (seconds): 11192.37
+	System time (seconds): 83.80
+	Percent of CPU this job got: 413%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 45:28.31
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 33970692
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 2
+	Minor (reclaiming a frame) page faults: 10990293
+	Voluntary context switches: 5192946
+	Involuntary context switches: 45828
+	Swaps: 0
+	File system inputs: 6552
+	File system outputs: 97659480
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+Generating kmer files...
+Building the GCSA2 index...
+InputGraph::InputGraph(): 6641297492 kmers in 1 file(s)
+InputGraph::read(): Read 6641297492 16-mers from /tmp/vg-wdnTKA/vg-kmers-tmp-7Ge4hz
+InputGraph::readKeys(): 1647584203 unique keys
+InputGraph::read(): Read 6641297492 16-mers from /tmp/vg-wdnTKA/vg-kmers-tmp-7Ge4hz
+InputGraph::readFrom(): 6296342369 unique start nodes
+InputGraph::read(): Read 6641297492 16-mers from /tmp/vg-wdnTKA/vg-kmers-tmp-7Ge4hz
+PathGraph::PathGraph(): 6641297492 paths with 13282594984 ranks
+PathGraph::PathGraph(): 197.926 GB in 1 file(s)
+GCSA::GCSA(): Preprocessing: 1779.7 seconds, 242.754 GB
+GCSA::GCSA(): Prefix-doubling from path length 16
+GCSA::GCSA(): Step 1 (path length 16 -> 32)
+PathGraph::prune(): 6641297492 -> 6625780064 paths (1644511051 ranges)
+PathGraph::prune(): 702870615 unique, 0 redundant, 5913929584 unsorted, 8979865 nondeterministic paths
+PathGraph::prune(): 197.464 GB in 1 file(s)
+PathGraph::read(): File 0: Read 6625780064 order-16 paths
+PathGraph::extend(): File 0: Created 6941548650 order-32 paths
+PathGraph::read(): File 0: Read 6941548650 order-32 paths
+PathGraphBuilder::sort(): File 0: Sorted 6941548650 paths
+PathGraph::extend(): 6625780064 -> 6941548650 paths (20112795470 ranks)
+PathGraph::extend(): 230.082 GB in 1 file(s)
+GCSA::GCSA(): Step 2 (path length 32 -> 64)
+PathGraph::prune(): 6941548650 -> 6739876017 paths (5356341452 ranges)
+PathGraph::prune(): 5152944225 unique, 0 redundant, 1570011558 unsorted, 16920234 nondeterministic paths
+PathGraph::prune(): 223.32 GB in 1 file(s)
+PathGraph::read(): File 0: Read 6739876017 order-32 paths
+PathGraph::extend(): File 0: Created 6892188763 order-64 paths
+PathGraph::read(): File 0: Read 6892188763 order-64 paths
+PathGraphBuilder::sort(): File 0: Sorted 6892188763 paths
+PathGraph::extend(): 6739876017 -> 6892188763 paths (23372635569 ranks)
+PathGraph::extend(): 241.122 GB in 1 file(s)
+GCSA::GCSA(): Step 3 (path length 64 -> 128)
+PathGraph::prune(): 6892188763 -> 6844869729 paths (5996878609 ranges)
+PathGraph::prune(): 5833861605 unique, 0 redundant, 948655265 unsorted, 62352859 nondeterministic paths
+PathGraph::prune(): 239.14 GB in 1 file(s)
+PathGraph::read(): File 0: Read 6844869729 order-64 paths
+PathGraph::extend(): File 0: Created 6999805359 order-128 paths
+PathGraph::read(): File 0: Read 6999805359 order-128 paths
+PathGraphBuilder::sort(): File 0: Sorted 6999805359 paths
+PathGraph::extend(): 6844869729 -> 6999805359 paths (28087979230 ranks)
+PathGraph::extend(): 261.094 GB in 1 file(s)
+GCSA::GCSA(): Step 4 (path length 128 -> 256)
+PathGraph::prune(): 6999805359 -> 6967513266 paths (6270327555 ranges)
+PathGraph::prune(): 6121362478 unique, 0 redundant, 763803406 unsorted, 82347382 nondeterministic paths
+PathGraph::prune(): 259.251 GB in 1 file(s)
+PathGraph::read(): File 0: Read 6967513266 order-128 paths
+PathGraph::extend(): File 0: Created 7246035026 order-256 paths
+PathGraph::read(): File 0: Read 7246035026 order-256 paths
+PathGraphBuilder::sort(): File 0: Sorted 7246035026 paths
+PathGraph::extend(): 6967513266 -> 7246035026 paths (38036755216 ranks)
+PathGraph::extend(): 303.659 GB in 1 file(s)
+GCSA::GCSA(): Prefix-doubling: 28554 seconds, 323.321 GB
+GCSA::GCSA(): Merging the paths
+MergedGraph::MergedGraph(): 6510960295 paths with 26196592177 ranks and 641073494 additional start nodes
+MergedGraph::MergedGraph(): 258.738 GB
+GCSA::GCSA(): Merging: 3011.82 seconds, 323.321 GB
+GCSA::GCSA(): Building the index
+GCSA::GCSA(): Construction: 9720.78 seconds, 323.321 GB
+GCSA::GCSA(): 6510960295 paths, 6537055552 edges
+GCSA::GCSA(): 7152033789 pointers (855691420 redundant)
+GCSA::GCSA(): 762608747 samples at 322749321 positions
+LCPArray::LCPArray(): Construction: 100.083 seconds, 323.321 GB
+LCPArray::LCPArray(): 6614308875 values at 7 levels (branching factor 64)
+GCSA2 index built in 44464.6 seconds, 323.321 GB
+I/O volume: 4163.96 GB read, 3596.2 GB write
+Saving GCSA to minigraph_cactus_grch38_f1_clip_d9_m1k_D10M_m1k_cat_gencode38_vgrna_k32.gcsa
+Saving LCP to minigraph_cactus_grch38_f1_clip_d9_m1k_D10M_m1k_cat_gencode38_vgrna_k32.gcsa.lcp
+Memory usage: 323.321 GB
+	Command being timed: "bash -c vg index -p -t 8 -g minigraph_cactus_grch38_f1_clip_d9_m1k_D10M_m1k_cat_gencode38_vgrna_k32.gcsa graph.pruned.pg"
+	User time (seconds): 96278.98
+	System time (seconds): 12031.14
+	Percent of CPU this job got: 243%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 12:21:16
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 339026668
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 57
+	Minor (reclaiming a frame) page faults: 3907290447
+	Voluntary context switches: 291194
+	Involuntary context switches: 1257318
+	Swaps: 0
+	File system inputs: 6997697816
+	File system outputs: 7575521080
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+upload: ./minigraph_cactus_grch38_f1_clip_d9_m1k_D10M_m1k_cat_gencode38_vgrna_k32.gcsa.lcp to s3://vg-k8s/users/jsibbesen/hprc/pilot/pantranscriptomes/minigraph_cactus_grch38_f1_clip_d9_m1k_D10M_m1k_cat_gencode38_vgrna_k32/minigraph_cactus_grch38_f1_clip_d9_m1k_D10M_m1k_cat_gencode38_vgrna_k32.gcsa.lcp
+upload: ./minigraph_cactus_grch38_f1_clip_d9_m1k_D10M_m1k_cat_gencode38_vgrna_k32.gcsa to s3://vg-k8s/users/jsibbesen/hprc/pilot/pantranscriptomes/minigraph_cactus_grch38_f1_clip_d9_m1k_D10M_m1k_cat_gencode38_vgrna_k32/minigraph_cactus_grch38_f1_clip_d9_m1k_D10M_m1k_cat_gencode38_vgrna_k32.gcsa
+---

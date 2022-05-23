@@ -1,0 +1,58 @@
+---
+jas-index-dist-pt-1kg-nygc-no001-af001-gc38-k32-0405-1353
+TIME=20220405-1353 IMAGE=quay.io/jsibbesen/vg-s3script:vg-1.38.0-s2 MEMORY=192 CPU=8 DISK=512
+s3://vg-k8s/users/jsibbesen/hprc/pilot/pantranscriptomes/1kg_nygc_no001trio_af001_gencode38_k32/index_dist.sh
+CPU=8
+---
+Completed 643 Bytes/643 Bytes (5.6 KiB/s) with 1 file(s) remainingdownload: s3://vg-k8s/users/jsibbesen/hprc/pilot/pantranscriptomes/1kg_nygc_no001trio_af001_gencode38_k32/index_dist.sh to ./index_dist.sh
+download: s3://vg-k8s/users/jsibbesen/hprc/pilot/pantranscriptomes/1kg_nygc_no001trio_af001_gencode38_k32/1kg_nygc_no001trio_af001_gencode38_k32.xg to ./1kg_nygc_no001trio_af001_gencode38_k32.xg
+	Command being timed: "bash -c vg snarls -t 8 -T 1kg_nygc_no001trio_af001_gencode38_k32.xg > 1kg_nygc_no001trio_af001_gencode38_k32.snarls"
+	User time (seconds): 6301.27
+	System time (seconds): 418.40
+	Percent of CPU this job got: 438%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 25:31.54
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 152703272
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 197432539
+	Voluntary context switches: 133444
+	Involuntary context switches: 27395
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 1192752
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+Memory usage: 112.951 GB
+	Command being timed: "bash -c vg index -p -t 8 -s 1kg_nygc_no001trio_af001_gencode38_k32.snarls -j 1kg_nygc_no001trio_af001_gencode38_k32.dist 1kg_nygc_no001trio_af001_gencode38_k32.xg"
+	User time (seconds): 3231.64
+	System time (seconds): 2134.04
+	Percent of CPU this job got: 177%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 50:22.14
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 118437404
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 148101378
+	Voluntary context switches: 3302707
+	Involuntary context switches: 9015
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 23322448
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+upload: ./1kg_nygc_no001trio_af001_gencode38_k32.snarls to s3://vg-k8s/users/jsibbesen/hprc/pilot/pantranscriptomes/1kg_nygc_no001trio_af001_gencode38_k32/1kg_nygc_no001trio_af001_gencode38_k32.snarls
+upload: ./1kg_nygc_no001trio_af001_gencode38_k32.dist to s3://vg-k8s/users/jsibbesen/hprc/pilot/pantranscriptomes/1kg_nygc_no001trio_af001_gencode38_k32/1kg_nygc_no001trio_af001_gencode38_k32.dist
+---

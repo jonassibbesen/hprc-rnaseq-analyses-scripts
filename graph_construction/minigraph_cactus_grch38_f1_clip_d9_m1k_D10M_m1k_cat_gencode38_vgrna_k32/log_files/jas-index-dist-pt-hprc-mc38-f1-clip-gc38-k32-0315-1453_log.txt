@@ -1,0 +1,58 @@
+---
+jas-index-dist-pt-hprc-mc38-f1-clip-gc38-k32-0315-1453
+TIME=20220315-1453 IMAGE=quay.io/jsibbesen/vg-s3script:vg-1.38.0-s2 MEMORY=192 CPU=8 DISK=512
+s3://vg-k8s/users/jsibbesen/hprc/pilot/pantranscriptomes/minigraph_cactus_grch38_f1_clip_d9_m1k_D10M_m1k_cat_gencode38_vgrna_k32/index_dist.sh
+CPU=8
+---
+Completed 676 Bytes/676 Bytes (4.1 KiB/s) with 1 file(s) remainingdownload: s3://vg-k8s/users/jsibbesen/hprc/pilot/pantranscriptomes/minigraph_cactus_grch38_f1_clip_d9_m1k_D10M_m1k_cat_gencode38_vgrna_k32/index_dist.sh to ./index_dist.sh
+download: s3://vg-k8s/users/jsibbesen/hprc/pilot/pantranscriptomes/minigraph_cactus_grch38_f1_clip_d9_m1k_D10M_m1k_cat_gencode38_vgrna_k32/minigraph_cactus_grch38_f1_clip_d9_m1k_D10M_m1k_cat_gencode38_vgrna_k32.pg to ./minigraph_cactus_grch38_f1_clip_d9_m1k_D10M_m1k_cat_gencode38_vgrna_k32.pg
+	Command being timed: "bash -c vg snarls -t 8 -T minigraph_cactus_grch38_f1_clip_d9_m1k_D10M_m1k_cat_gencode38_vgrna_k32.pg > minigraph_cactus_grch38_f1_clip_d9_m1k_D10M_m1k_cat_gencode38_vgrna_k32.snarls"
+	User time (seconds): 4759.98
+	System time (seconds): 427.52
+	Percent of CPU this job got: 407%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 21:12.94
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 165469672
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 11
+	Minor (reclaiming a frame) page faults: 193161305
+	Voluntary context switches: 156414
+	Involuntary context switches: 22306
+	Swaps: 0
+	File system inputs: 69992
+	File system outputs: 1325568
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+Memory usage: 118.367 GB
+	Command being timed: "bash -c vg index -p -t 8 -s minigraph_cactus_grch38_f1_clip_d9_m1k_D10M_m1k_cat_gencode38_vgrna_k32.snarls -j minigraph_cactus_grch38_f1_clip_d9_m1k_D10M_m1k_cat_gencode38_vgrna_k32.dist minigraph_cactus_grch38_f1_clip_d9_m1k_D10M_m1k_cat_gencode38_vgrna_k32.pg"
+	User time (seconds): 3148.52
+	System time (seconds): 2272.63
+	Percent of CPU this job got: 180%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 50:03.98
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 124116652
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 134259807
+	Voluntary context switches: 3687176
+	Involuntary context switches: 9269
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 25031376
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+upload: ./minigraph_cactus_grch38_f1_clip_d9_m1k_D10M_m1k_cat_gencode38_vgrna_k32.snarls to s3://vg-k8s/users/jsibbesen/hprc/pilot/pantranscriptomes/minigraph_cactus_grch38_f1_clip_d9_m1k_D10M_m1k_cat_gencode38_vgrna_k32/minigraph_cactus_grch38_f1_clip_d9_m1k_D10M_m1k_cat_gencode38_vgrna_k32.snarls
+upload: ./minigraph_cactus_grch38_f1_clip_d9_m1k_D10M_m1k_cat_gencode38_vgrna_k32.dist to s3://vg-k8s/users/jsibbesen/hprc/pilot/pantranscriptomes/minigraph_cactus_grch38_f1_clip_d9_m1k_D10M_m1k_cat_gencode38_vgrna_k32/minigraph_cactus_grch38_f1_clip_d9_m1k_D10M_m1k_cat_gencode38_vgrna_k32.dist
+---
