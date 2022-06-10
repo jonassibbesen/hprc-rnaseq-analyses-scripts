@@ -1,0 +1,10 @@
+fe5d5fd9d1c6f94af9cd2bf284d116b11b265c11
+/public/groups/vg/jsibbese/hprc/tools/vgrna-project-scripts/c++/bin/calc_vg_benchmark_stats /public/groups/vg/jeizenga/rna/hprc/1kg_gen38_notrio/sim_mc_grch38_hg002_vgrna_k32.nygc.gamp.bam /public/groups/vg/jeizenga/rna/hprc/hg002_cat_sim/benchmark_hsts.reheader.bam /public/groups/vg/jeizenga/rna/hprc/hg002_cat_sim/sim_mc_grch38_hg002_vgrna_k32.read_origin.txt 3 ../empty.vcf.gz HG002 0
+
+Number of transcript alignments: 326967
+Number of reads: 10000000
+
+Number of analysed reads: 10000000
+
+Total number of analysed reads: 10000000
+Average overlap: 0.990076

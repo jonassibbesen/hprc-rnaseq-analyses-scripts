@@ -1,0 +1,31 @@
+fe5d5fd9d1c6f94af9cd2bf284d116b11b265c11
+/public/groups/vg/jsibbese/hprc/tools/vgrna-project-scripts/c++/bin/calc_read_regions_overlap_stats SRR1153470.star_sort.bam ../empty.bed
+
+Total length of regions: 0
+
+Number of analysed reads: 10000000
+Number of analysed reads: 20000000
+Number of analysed reads: 30000000
+Number of analysed reads: 40000000
+Number of analysed reads: 50000000
+Number of analysed reads: 60000000
+Number of analysed reads: 70000000
+Number of analysed reads: 80000000
+Number of analysed reads: 90000000
+Number of analysed reads: 100000000
+Number of analysed reads: 110000000
+Number of analysed reads: 120000000
+Number of analysed reads: 130000000
+Number of analysed reads: 140000000
+Number of analysed reads: 150000000
+Number of analysed reads: 160000000
+Number of analysed reads: 170000000
+Number of analysed reads: 180000000
+Number of analysed reads: 190000000
+Number of analysed reads: 200000000
+Number of analysed reads: 210000000
+Number of analysed reads: 220000000
+Number of analysed reads: 230000000
+
+Total number of analysed reads: 230719546
+Average overlap: 0
