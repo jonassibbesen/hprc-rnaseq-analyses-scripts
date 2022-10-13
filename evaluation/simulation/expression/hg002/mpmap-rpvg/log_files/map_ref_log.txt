@@ -1,0 +1,16 @@
+[vg mpmap] elapsed time 0 s: Executing command: /public/groups/vg/jsibbese/hprc/tools_r1/vg-v1.43.0/vg mpmap -t 8 -n rna -M 1 --agglomerate-alns -x /public/groups/vg/jsibbese/hprc/spliced_pangenome/graphs/grch38_gencode38_vgrna_k32/grch38_gencode38_vgrna_k32.xg -g /public/groups/vg/jsibbese/hprc/spliced_pangenome/graphs/grch38_gencode38_vgrna_k32/grch38_gencode38_vgrna_k32.gcsa -d /public/groups/vg/jsibbese/hprc/spliced_pangenome/graphs/grch38_gencode38_vgrna_k32/grch38_gencode38_vgrna_k32.dist -f /dev/fd/63 -f /dev/fd/62
+[vg mpmap] elapsed time 0 s: Loading graph from /public/groups/vg/jsibbese/hprc/spliced_pangenome/graphs/grch38_gencode38_vgrna_k32/grch38_gencode38_vgrna_k32.xg
+[vg mpmap] elapsed time 13 s: Completed loading graph
+[vg mpmap] elapsed time 13 s: Graph is in XG format. XG is a good graph format for most mapping use cases. PackedGraph may be selected if memory usage is too high. See `vg convert` if you want to change graph formats.
+[vg mpmap] elapsed time 13 s: Identifying reference paths
+[vg mpmap] elapsed time 23 s: Loading GCSA2 from /public/groups/vg/jsibbese/hprc/spliced_pangenome/graphs/grch38_gencode38_vgrna_k32/grch38_gencode38_vgrna_k32.gcsa
+[vg mpmap] elapsed time 23 s: Loading distance index from /public/groups/vg/jsibbese/hprc/spliced_pangenome/graphs/grch38_gencode38_vgrna_k32/grch38_gencode38_vgrna_k32.dist (in background)
+[vg mpmap] elapsed time 38 s: Completed loading GCSA2
+[vg mpmap] elapsed time 38 s: Loading LCP from /public/groups/vg/jsibbese/hprc/spliced_pangenome/graphs/grch38_gencode38_vgrna_k32/grch38_gencode38_vgrna_k32.gcsa.lcp
+[vg mpmap] elapsed time 38 s: Memoizing GCSA2 queries (in background)
+[vg mpmap] elapsed time 48 s: Completed loading LCP
+[vg mpmap] elapsed time 1.1 m: Completed memoizing GCSA2 queries
+[vg mpmap] elapsed time 2.4 m: Completed loading distance index
+[vg mpmap] elapsed time 2.4 m: Building null model to calibrate mismapping detection
+[vg mpmap] elapsed time 2.6 m: Mapping reads from /dev/fd/63 and /dev/fd/62 using 8 threads
+[vg mpmap] elapsed time 18.5 m: Mapping finished. Mapped 5000000 read pairs.

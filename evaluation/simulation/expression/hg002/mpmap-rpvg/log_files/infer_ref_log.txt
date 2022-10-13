@@ -1,0 +1,8 @@
+Running rpvg (commit: 1d91a9e379cb7b3f5260642ae1500d99b8afccf6)
+Random number generator seed: 12345678
+Fragment length distribution parameters found in alignment (mean: 266.343, standard deviation: 56.9041)
+Loaded graph, GBWT and r-index (27.2549 seconds, 7.1389 GB)
+Fragment length distribution parameters re-estimated from alignment paths (location: 292.882, scale: 53.1528, shape: -0.473146)
+Found alignment paths (230.023 seconds, 7.1389 GB)
+Clustered alignment paths (14.1945 seconds, 7.1389 GB)
+Inferred path posterior probabilities and abundances (379.764 seconds, 7.1389 GB)
