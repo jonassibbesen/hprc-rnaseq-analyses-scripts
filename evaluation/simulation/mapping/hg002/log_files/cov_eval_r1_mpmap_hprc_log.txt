@@ -1,0 +1,55 @@
+[bam_sort_core] merging from 0 files and 4 in-memory blocks...
+[bam_sort_core] merging from 0 files and 4 in-memory blocks...
+5036484 + 0 in total (QC-passed reads + QC-failed reads)
+4810692 + 0 primary
+225792 + 0 secondary
+0 + 0 supplementary
+0 + 0 duplicates
+0 + 0 primary duplicates
+4992258 + 0 mapped (99.12% : N/A)
+4803388 + 0 primary mapped (99.85% : N/A)
+0 + 0 paired in sequencing
+0 + 0 read1
+0 + 0 read2
+0 + 0 properly paired (N/A : N/A)
+0 + 0 with itself and mate mapped
+0 + 0 singletons (N/A : N/A)
+0 + 0 with mate mapped to a different chr
+0 + 0 with mate mapped to a different chr (mapQ>=5)
+5216884 + 0 in total (QC-passed reads + QC-failed reads)
+4980744 + 0 primary
+236140 + 0 secondary
+0 + 0 supplementary
+0 + 0 duplicates
+0 + 0 primary duplicates
+5169633 + 0 mapped (99.09% : N/A)
+4972835 + 0 primary mapped (99.84% : N/A)
+0 + 0 paired in sequencing
+0 + 0 read1
+0 + 0 read2
+0 + 0 properly paired (N/A : N/A)
+0 + 0 with itself and mate mapped
+0 + 0 singletons (N/A : N/A)
+0 + 0 with mate mapped to a different chr
+0 + 0 with mate mapped to a different chr (mapQ>=5)
+39f7d9b90eab9e489c0ef5d2a11307107654f95e
+/public/groups/vg/jsibbese/hprc/tools_r1/vgrna-project-scripts/c++/bin/calc_allele_read_coverage sim_mc_grch38_clipped_hg002_vgrna_k32_h1.gamp_nosingle_psort.bam sim_mc_grch38_clipped_hg002_vgrna_k32_h2.gamp_nosingle_psort.bam /dev/fd/63
+
+Number of analysed variants: 10000
+Number of analysed variants: 20000
+Number of analysed variants: 30000
+Number of analysed variants: 40000
+Number of analysed variants: 60000
+Number of analysed variants: 70000
+Number of analysed variants: 80000
+Number of analysed variants: 90000
+Number of analysed variants: 100000
+Number of analysed variants: 110000
+Number of analysed variants: 120000
+Number of analysed variants: 130000
+Number of analysed variants: 150000
+Number of analysed variants: 160000
+Number of analysed variants: 170000
+Number of analysed variants: 180000
+
+Total number of analysed variants: 199010
