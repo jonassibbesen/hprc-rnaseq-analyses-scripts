@@ -1,0 +1,39 @@
+---
+jas-index-gbwt-pt-hprc-mc38-f1-clip-gc38-k32-0315-1453
+TIME=20220315-1453 IMAGE=quay.io/jsibbesen/vg-s3script:vg-1.38.0-s2 MEMORY=32 CPU=8 DISK=512
+s3://vg-k8s/users/jsibbesen/hprc/pilot/pantranscriptomes/minigraph_cactus_grch38_f1_clip_d9_m1k_D10M_m1k_cat_gencode38_vgrna_k32/index_gbwt.sh
+CPU=8
+---
+Completed 567 Bytes/567 Bytes (3.3 KiB/s) with 1 file(s) remainingdownload: s3://vg-k8s/users/jsibbesen/hprc/pilot/pantranscriptomes/minigraph_cactus_grch38_f1_clip_d9_m1k_D10M_m1k_cat_gencode38_vgrna_k32/index_gbwt.sh to ./index_gbwt.sh
+download: s3://vg-k8s/users/jsibbesen/hprc/pilot/pantranscriptomes/minigraph_cactus_grch38_f1_clip_d9_m1k_D10M_m1k_cat_gencode38_vgrna_k32/minigraph_cactus_grch38_f1_clip_d9_m1k_D10M_m1k_cat_gencode38_vgrna_k32.gbwt to ./minigraph_cactus_grch38_f1_clip_d9_m1k_D10M_m1k_cat_gencode38_vgrna_k32.gbwt
+Building r-index
+Loading compressed GBWT from minigraph_cactus_grch38_f1_clip_d9_m1k_D10M_m1k_cat_gencode38_vgrna_k32.gbwt
+Starting the construction
+Saving r-index to minigraph_cactus_grch38_f1_clip_d9_m1k_D10M_m1k_cat_gencode38_vgrna_k32.gbwt.ri
+R-index built in 36.199 seconds, 2.72869 GiB
+
+	Command being timed: "bash -c vg gbwt -p --num-threads 8 -r minigraph_cactus_grch38_f1_clip_d9_m1k_D10M_m1k_cat_gencode38_vgrna_k32.gbwt.ri minigraph_cactus_grch38_f1_clip_d9_m1k_D10M_m1k_cat_gencode38_vgrna_k32.gbwt"
+	User time (seconds): 43.49
+	System time (seconds): 11.19
+	Percent of CPU this job got: 150%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:36.32
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 2861244
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 868636
+	Voluntary context switches: 66
+	Involuntary context switches: 339
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 1915032
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+upload: ./minigraph_cactus_grch38_f1_clip_d9_m1k_D10M_m1k_cat_gencode38_vgrna_k32.gbwt.ri to s3://vg-k8s/users/jsibbesen/hprc/pilot/pantranscriptomes/minigraph_cactus_grch38_f1_clip_d9_m1k_D10M_m1k_cat_gencode38_vgrna_k32/minigraph_cactus_grch38_f1_clip_d9_m1k_D10M_m1k_cat_gencode38_vgrna_k32.gbwt.ri
+---

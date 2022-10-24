@@ -1,0 +1,4 @@
+main 87f9d2888b31b318e49e63609b42c2b404f8d6d0
+/Users/jonas/Documents/postdoc/sc/code/hprc-hst-project-scripts/python/add_par_y_source_suffix.py gencode.v38.chr_patch_hapl_scaff.annotation_rename.gff3.gz gencode.v38.chr_patch_hapl_scaff.annotation_rename_par.gff3.gz
+
+Done

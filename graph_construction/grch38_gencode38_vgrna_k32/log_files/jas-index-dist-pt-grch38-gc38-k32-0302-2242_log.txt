@@ -1,0 +1,58 @@
+---
+jas-index-dist-pt-grch38-gc38-k32-0302-2242
+TIME=20220302-2242 IMAGE=quay.io/jsibbesen/vg-s3script:vg-1.38.0-s2 MEMORY=160 CPU=8 DISK=512
+s3://vg-k8s/users/jsibbesen/hprc/pilot/pantranscriptomes/grch38_gencode38_vgrna_k32/index_dist.sh
+CPU=8
+---
+Completed 631 Bytes/631 Bytes (5.6 KiB/s) with 1 file(s) remainingdownload: s3://vg-k8s/users/jsibbesen/hprc/pilot/pantranscriptomes/grch38_gencode38_vgrna_k32/index_dist.sh to ./index_dist.sh
+download: s3://vg-k8s/users/jsibbesen/hprc/pilot/pantranscriptomes/grch38_gencode38_vgrna_k32/grch38_gencode38_vgrna_k32.pg to ./grch38_gencode38_vgrna_k32.pg
+	Command being timed: "bash -c vg snarls -t 8 -T grch38_gencode38_vgrna_k32.pg > grch38_gencode38_vgrna_k32.snarls"
+	User time (seconds): 3004.41
+	System time (seconds): 238.15
+	Percent of CPU this job got: 372%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 14:31.42
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 131454944
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 117882632
+	Voluntary context switches: 129488
+	Involuntary context switches: 14070
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 996096
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+Memory usage: 99.4769 GB
+	Command being timed: "bash -c vg index -p -t 8 -s grch38_gencode38_vgrna_k32.snarls -j grch38_gencode38_vgrna_k32.dist grch38_gencode38_vgrna_k32.pg"
+	User time (seconds): 2139.47
+	System time (seconds): 1739.06
+	Percent of CPU this job got: 172%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 37:27.22
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 104309064
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 100835576
+	Voluntary context switches: 1893559
+	Involuntary context switches: 5235
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 18317336
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+upload: ./grch38_gencode38_vgrna_k32.snarls to s3://vg-k8s/users/jsibbesen/hprc/pilot/pantranscriptomes/grch38_gencode38_vgrna_k32/grch38_gencode38_vgrna_k32.snarls
+upload: ./grch38_gencode38_vgrna_k32.dist to s3://vg-k8s/users/jsibbesen/hprc/pilot/pantranscriptomes/grch38_gencode38_vgrna_k32/grch38_gencode38_vgrna_k32.dist
+---

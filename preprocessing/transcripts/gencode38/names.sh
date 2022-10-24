@@ -1,0 +1,1 @@
+gffread --table @chr,ID,gene_id,gene_name,transcript_id,transcript_name <(zcat gencode.v38.primary_assembly.annotation_rename_par_id.gff3.gz) 1> gencode.v38.primary_assembly.annotation_rename_par_id_names.txt
