@@ -7,9 +7,9 @@ The directories contain the scripts used in the analyses, as well as in many cas
 
 Here you can find links to the data used in the paper. This includes both raw data and data constructed as part of the analyses in the paper. The constructed data included here is data that are either not guaranteed to be reproducible (simulated reads) or that are deemed potentially useful in other projects (graphs and indexes).
 
-### Graphs and indexes
+### Graphs, pantranscriptomes and indexes
 
-The spliced pangenome graphs and indexes:
+The spliced pangenome graphs, pantranscriptomes and indexes:
 
 * http://cgl.gi.ucsc.edu/data/vgrna/hprc_analyses/graphs/
 
