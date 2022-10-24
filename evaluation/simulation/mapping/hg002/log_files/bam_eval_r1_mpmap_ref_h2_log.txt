@@ -1,0 +1,31 @@
+[bam_sort_core] merging from 0 files and 4 in-memory blocks...
+5214620 + 0 in total (QC-passed reads + QC-failed reads)
+5000000 + 0 primary
+214620 + 0 secondary
+0 + 0 supplementary
+0 + 0 duplicates
+0 + 0 primary duplicates
+5214606 + 0 mapped (100.00% : N/A)
+4999990 + 0 primary mapped (100.00% : N/A)
+0 + 0 paired in sequencing
+0 + 0 read1
+0 + 0 read2
+0 + 0 properly paired (N/A : N/A)
+0 + 0 with itself and mate mapped
+0 + 0 singletons (N/A : N/A)
+0 + 0 with mate mapped to a different chr
+0 + 0 with mate mapped to a different chr (mapQ>=5)
+39f7d9b90eab9e489c0ef5d2a11307107654f95e
+/public/groups/vg/jsibbese/hprc/tools_r1/vgrna-project-scripts/c++/bin/calc_vg_benchmark_stats sim_mc_grch38_hg002_vgrna_k32_h2.linear.gamp_rsort.bam /public/groups/vg/jeizenga/rna/hprc/hg002_cat_sim/benchmark_hsts.reheader.bam ../sim_mc_grch38_hg002_vgrna_k32_h2.read_origin_rename.txt 3 null null null null
+
+Number of transcript alignments: 326967
+Number of reads: 5000000
+
+Total number of splice junction: 0
+Total length of complex regions: 0
+
+
+Number of unique reads: 5000000
+Average overlap: 0.998206
+
+Total number of analysed reads: 5214620

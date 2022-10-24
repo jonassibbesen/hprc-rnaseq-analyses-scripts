@@ -44,13 +44,17 @@ endif()
 
 set(EXECUTABLE_OUTPUT_PATH ${PROJECT_SOURCE_DIR}/bin)
 
+add_executable(calc_allele_read_coverage src/calc_allele_read_coverage.cpp)
+add_dependencies(calc_allele_read_coverage seqlib-proj)
+target_link_libraries(calc_allele_read_coverage seqlib hts z)
+
 add_executable(calc_exon_read_coverage src/calc_exon_read_coverage.cpp)
 add_dependencies(calc_exon_read_coverage seqlib-proj)
 target_link_libraries(calc_exon_read_coverage seqlib hts z)
 
 add_executable(calc_vg_benchmark_stats src/calc_vg_benchmark_stats.cpp)
 add_dependencies(calc_vg_benchmark_stats seqlib-proj)
-target_link_libraries(calc_vg_benchmark_stats seqlib hts)
+target_link_libraries(calc_vg_benchmark_stats seqlib hts z)
 
 add_executable(calc_read_regions_overlap_stats src/calc_read_regions_overlap_stats.cpp)
 add_dependencies(calc_read_regions_overlap_stats seqlib-proj)
