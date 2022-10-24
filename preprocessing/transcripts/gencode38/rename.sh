@@ -1,0 +1,1 @@
+gunzip -c gencode.v38.primary_assembly.annotation.gff3.gz | sed -E -f <(paste -d : <(cut -f1 ChromosomeMappings/GRCh38_gencode2UCSC.txt) <(cut -f2 ChromosomeMappings/GRCh38_gencode2UCSC.txt) | sed 's/\([^:]*\):\([^:]*\)/s%^\1%GRCh38.\2%/') | sed 's/transcript_id/source_transcript/g' | gzip -c > gencode.v38.primary_assembly.annotation_rename.gff3.gz

@@ -13,6 +13,12 @@ The spliced pangenome graphs and indexes:
 
 * http://cgl.gi.ucsc.edu/data/vgrna/hprc_analyses/graphs/
 
+### Reference transcripts
+
+The GENCODE v38 transcript annotation:
+
+* https://ftp.ebi.ac.uk/pub/databases/gencode/Gencode_human/release_38/
+
 ### Reads
 
 The simulated RNA-seq reads:
