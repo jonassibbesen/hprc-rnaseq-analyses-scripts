@@ -2,7 +2,7 @@
 
 Contains the scripts used for analysing and comparing RNA-seq alignments from *STAR* and *vg mpmap*.
 
-Each script contains hard-coded filenames, however most of these correspond to the default output names used in the scripts in the preceding steps in the benchmarking pipeline. Note that the number of threads is set to either 4 or 8 in some of the bash scripts. 
+Each script contains hard-coded filenames, however, many of these names are identical to the output names used in the preceding steps in the benchmarking pipeline. Note that the number of threads is set to either 4 or 8 in some of the bash scripts. 
 
 Follow the below steps to replicate the analyses presented in the paper. 
 

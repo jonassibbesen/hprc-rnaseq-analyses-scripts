@@ -2,7 +2,7 @@
 
 Contains the scripts used for mapping RNA-seq read using *STAR* and *vg mpmap*. 
 
-Each script contains hard-coded filenames, however most of these correspond to the default output names used in the scripts in the preceding steps in the benchmarking pipeline. Note that the number of threads is set to 20 in all the bash scripts.
+Each script contains hard-coded filenames, however, many of these names are identical to the output names used in the preceding steps in the benchmarking pipeline. Note that the number of threads is set to 20 in all the bash scripts.
 
 Follow the below steps to replicate the analyses presented in the paper. 
 

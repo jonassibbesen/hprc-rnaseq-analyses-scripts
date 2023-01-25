@@ -2,7 +2,7 @@
 
 Contains the scripts used for estimating and comparing expression values from *mpmap-rpvg*, *RSEM* and *Salmon*. 
 
-Each script contains hard-coded filenames, however most of these correspond to the default output names used in the scripts in the preceding steps in the benchmarking pipeline. Note that the number of threads is set to 8 in all the bash scripts.
+Each script contains hard-coded filenames, however, many of these names are identical to the output names used in the preceding steps in the benchmarking pipeline. Note that the number of threads is set to 8 in all the bash scripts.
 
 Follow the below steps to replicate the analyses presented in the paper. 
 
@@ -30,7 +30,7 @@ Scripts (`salmon` folder):
 
 Input files:
 
-* `SEQ_PREFIX`: Prefix for the transcriptome sequences created by RSEM (see previous step).
+* `SEQ_PREFIX`: Prefix for the transcriptome sequences (FASTA format) created by RSEM (see previous step).
 * `GENOME_PREFIX`: Prefix for the reference genome used a decoy (see [genomes](https://github.com/jonassibbesen/hprc-rnaseq-analyses-scripts/tree/main/preprocessing/genomes) folder under preprocessing).
 
 Methods:
