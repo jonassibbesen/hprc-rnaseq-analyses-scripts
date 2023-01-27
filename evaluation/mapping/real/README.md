@@ -4,6 +4,10 @@ Contains the scripts used for analysing and comparing RNA-seq alignments from *S
 
 Each script contains hard-coded filenames, however, many of these names are identical to the output names used in the preceding steps in the benchmarking pipeline. Note that the number of threads is set to either 4 or 8 in some of the bash scripts. 
 
+The *log_files* subfolders contain the log files from running the scripts. 
+
+The *results* subfolders contain the mapping statistics and coverage data output from the scripts, which is used as input to the plotting scripts.
+
 Follow the below steps to replicate the analyses presented in the paper. 
 
 ### 1. Calculate general mapping statistics
@@ -24,7 +28,7 @@ Methods:
 
 * [vgrna_scripts](https://github.com/jonassibbesen/hprc-rnaseq-analyses-scripts/tree/main/evaluation/vgrna_scripts)
 
-### 2. Calculate Iso-Seq exon coverage statistics 
+### 2. Calculate exon coverages (Iso-Seq) 
 
 Scripts (`iso_seq` folder):
 
@@ -42,7 +46,7 @@ Methods:
 * [bedtools](https://github.com/arq5x/bedtools2) (v2.30.0)
 * [vgrna_scripts](https://github.com/jonassibbesen/hprc-rnaseq-analyses-scripts/tree/main/evaluation/vgrna_scripts)
 
-### 3. Calculate mapping coverage statistics
+### 3. Calculate exon coverages (Illumina)
 
 Scripts (`illumina` folder):
 

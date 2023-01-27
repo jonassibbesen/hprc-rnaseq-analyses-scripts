@@ -4,6 +4,10 @@ Contains the scripts used for estimating and comparing expression values from *m
 
 Each script contains hard-coded filenames, however, many of these names are identical to the output names used in the preceding steps in the benchmarking pipeline. Note that the number of threads is set to 8 in all the bash scripts.
 
+The *log_files* subfolders contain the log files from running the scripts. 
+
+The *results* subfolders contain the expression data output from the scripts, which is used as input to the plotting script.
+
 Follow the below steps to replicate the analyses presented in the paper. 
 
 ### 1. Create and index transcriptome (*RSEM*)
@@ -14,7 +18,7 @@ Scripts (`rsem` folder):
 
 Input files:
 
-* `ANNO_PREFIX`: Prefix for the transcript annotation (see [transcripts](https://github.com/jonassibbesen/hprc-rnaseq-analyses-scripts/tree/main/preprocessing/transcripts) folder under preprocessing).
+* `ANNO_PREFIX`: Prefix for the transcript annotation (available [here](http://cgl.gi.ucsc.edu/data/vgrna/hprc_analyses/transcript_annotations/)).
 * `GENOME_PREFIX`: Prefix for the reference genome (see [genomes](https://github.com/jonassibbesen/hprc-rnaseq-analyses-scripts/tree/main/preprocessing/genomes) folder under preprocessing).
 
 Methods:
