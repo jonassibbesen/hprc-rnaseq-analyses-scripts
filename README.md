@@ -15,9 +15,9 @@ The spliced pangenome graphs, pantranscriptomes and indexes:
 
 ### Reference transcripts
 
-The GENCODE v38 transcript annotation:
+The processed GENCODE (v38) transcript annotations:
 
-* https://ftp.ebi.ac.uk/pub/databases/gencode/Gencode_human/release_38/
+* http://cgl.gi.ucsc.edu/data/vgrna/hprc_analyses/transcript_annotations/
 
 ### Reads
 

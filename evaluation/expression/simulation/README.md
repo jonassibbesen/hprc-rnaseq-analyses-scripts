@@ -14,7 +14,7 @@ Scripts (`rsem` folder):
 
 Input files:
 
-* `ANNO_PREFIX`: Prefix for the transcript annotation (see [transcripts](https://github.com/jonassibbesen/hprc-rnaseq-analyses-scripts/tree/main/preprocessing/transcripts) folder under preprocessing).
+* `ANNO_PREFIX`: Prefix for the transcript annotation (available [here](http://cgl.gi.ucsc.edu/data/vgrna/hprc_analyses/transcript_annotations/)).
 * `GENOME_PREFIX`: Prefix for the reference genome (see [genomes](https://github.com/jonassibbesen/hprc-rnaseq-analyses-scripts/tree/main/preprocessing/genomes) folder under preprocessing).
 
 Methods:
