@@ -4,6 +4,10 @@ Contains the scripts used for estimating and comparing expression values from *m
 
 Each script contains hard-coded filenames, however, many of these names are identical to the output names used in the preceding steps in the benchmarking pipeline. Note that the number of threads is set to 8 in all the bash scripts.
 
+The *log_files* subfolders contain the log files from running the scripts. 
+
+The *results* subfolders contain the expression data output from the scripts, which is used as input to the plotting script.
+
 Follow the below steps to replicate the analyses presented in the paper. 
 
 ### 1. Create and index transcriptome (*RSEM*)

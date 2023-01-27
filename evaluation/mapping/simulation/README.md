@@ -4,9 +4,13 @@ Contains the scripts used for analysing and comparing RNA-seq alignments from *S
 
 Each script contains hard-coded filenames, however, many of these names are identical to the output names used in the preceding steps in the benchmarking pipeline. Note that the number of threads is set to 4 in some of the bash scripts.
 
+The *log_files* subfolder contains the log files from running the scripts. 
+
+The *results* subfolder contains the overlap and coverage data output from the scripts, which is used as input to the plotting scripts.
+
 Follow the below steps to replicate the analyses presented in the paper. 
 
-### 1. Calculate reference-based mapping statistics
+### 1. Calculate simulated alignment overlap
 
 Scripts:
 
@@ -27,7 +31,7 @@ Methods:
 * [samtools](https://github.com/samtools/samtools) (v1.15)
 * [vgrna_scripts](https://github.com/jonassibbesen/hprc-rnaseq-analyses-scripts/tree/main/evaluation/vgrna_scripts)
 
-### 2. Calculate mapping bias statistics
+### 2. Calculate variant coverages (bias analyses)
 
 Scripts:
 
